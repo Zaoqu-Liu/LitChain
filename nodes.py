@@ -17,11 +17,11 @@ from prompt.planner_model import Plan
 
 # 基础配置
 model = "gpt-4o-2024-11-20"
-api_key = "sk-Xx2Ix6Gz7MkkXDiH5b8d3bF0963a4a869c8303B077Da65A5"
-base_url = "https://api.bltcy.ai/v1"
+api_key = ""
+base_url = ""
 logger = logging.getLogger(__name__)
 # 设置环境变量
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["TAVILY_API_KEY"] = ""
 
 llm = ChatOpenAI(model=model, api_key=api_key, base_url=base_url)
 
