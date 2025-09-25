@@ -1,58 +1,68 @@
 # 🧬 LitChain
-> 基于 LangGraph 的端到端生物医学论文深度研究代理  
-> 输入一个科研问题 → 自动完成背景调研、研究规划、文献检索、质量筛选、原文阅读、结构化综述报告生成，全程可追溯、可引用、可扩展。
+> End-to-end Biomedical Literature Deep Research Agent Based on LangGraph  
+> Input a research question → Automatically complete background research, study planning, literature retrieval, quality screening, full-text reading, and structured review report generation. Fully traceable, citable, and extensible.
 
 ---
 
-## 🌟 亮点
-| 能力 | 一句话描述                                                     |
-|---|-----------------------------------------------------------|
-| 🔍 多源并行检索 | 同时检索 PubMed / bioRxiv / medRxiv，毫秒级返回。                    |
-| 🧠 智能规划 | LLM 自动将开放问题拆成链式研究步骤，支持自我修正。                               |
-| 📊 三级质量筛选 | 期刊评分+时间+相关性自动排序，过滤低质文献。                                   |
-| 📄 原文精读 | 自动下载 PDF（Europe PMC / Unpaywall / Sci-Hub），调用 LLM 提取关键发现。 |
-| 📝 综述报告 | 生成带引用、带章节de 结构化报告。                                        |
-| 🔁 自我优化 | 当某一步骤文献被全部过滤，系统触发反思节点，重写查询并重新检索。                          |
+## 🌟 Highlights
+| Capability | One-line Description |
+|---|---|
+| 🔍 Multi-source Parallel Retrieval | Simultaneous search across PubMed / bioRxiv / medRxiv with millisecond response time. |
+| 🧠 Intelligent Planning | LLM automatically breaks down open questions into chained research steps with self-correction support. |
+| 📊 Three-tier Quality Screening | Automatic ranking by journal impact + time + relevance, filtering out low-quality literature. |
+| 📄 Full-text Deep Reading | Auto PDF download (Europe PMC / Unpaywall / Sci-Hub) with LLM extraction of key findings. |
+| 📝 Review Report Generation | Generate structured reports with citations and sections. |
+| 🔁 Self-optimization | When all literature in a step is filtered out, system triggers reflection node to rewrite queries and re-search. |
 
 ---
 
-## ⚙️ 前置要求
-### 1. 环境配置
-创建并激活Conda环境
+## ⚙️ Prerequisites
+
+### 1. Environment Setup
+Create and activate Conda environment
 ```bash
 conda env create -f environment.yml
 conda activate LitChain
 ```
-### 2. 设置API密钥
+
+### 2. Set API Keys
 ```bash
-# 方法一：环境变量设置
+# Method 1: Environment variable setup
 export OPENAI_API_KEY="your-openai-api-key"
 export OPENAI_API_BASE="https://api.openai.com/v1"
 export TAVILY_API_KEY="your-tavily-api-key"
 
-# 方法二：配置文件设置
-# 在config.yaml中配置相应的API密钥和参数
+# Method 2: Configuration file setup
+# Configure corresponding API keys and parameters in config.yaml
 ```
-### 3. 设置LANGSMITH环境变量(可选)
 
-在.env中配置相应的密钥
+### 3. Set LANGSMITH Environment Variables (Optional)
+Configure corresponding keys in .env file
 
-### 4. 运行系统
+### 4. Run the System
 ```bash
-# 编辑run.py中的question变量来设置研究主题
+# Edit the question variable in run.py to set your research topic
 python run.py
-``` 
+```
+
 ---
 
-## 工作流程
-### 第一阶段：智能检索与筛选
-![1.png](1.png)
-1. 用户的输入首先由 LLM Planner 进行解析，生成多个研究步骤（step）及对应的查询语句（query）。针对每个步骤的查询，系统会同时在 PubMed、BioRxiv 和 MedRxiv 三大数据库中进行文献检索。
-2. 对于检索到的每篇论文，系统将进行三级筛选，仅保留通过一级和二级筛选的文献。如果某一步骤的所有论文均被过滤掉，系统将触发 Self Reflection 机制，自动对该步骤和后续步骤的查询计划进行反思与更新。
-3. 若某步骤的论文通过筛选，则进入下一个步骤，重复上述流程。
-### 第二阶段：深度分析与报告生成
-![2.png](2.png)
-4. 所有步骤的论文搜索完成后，系统将根据预设规则对各步骤保留的文献进行排序，并选取排名前 N 的论文进行下载。
-5. 为确保文献获取的完整性和可获取性，系统整合了 Europe PMC、Unpaywall 和 SCI-HUB 三个开放获取资源，尽可能覆盖所有可下载的论文版本，提升文献的可访问性与利用率。
-6. 随后，系统利用大模型对每篇论文进行内容总结，提取与用户输入高度相关的信息。最终，所有步骤的总结内容根据用户的输入和Plan进行整合，由大模型生成一篇完整的综述报告。
+## Workflow
 
+### Phase 1: Intelligent Retrieval and Screening
+![1.png](1.png)
+
+1. User input is first parsed by the LLM Planner, generating multiple research steps and corresponding query statements. For each step's query, the system simultaneously searches across three major databases: PubMed, BioRxiv, and MedRxiv.
+
+2. For each retrieved paper, the system performs three-tier screening, retaining only literature that passes both first-tier and second-tier screening. If all papers in a particular step are filtered out, the system triggers a Self Reflection mechanism to automatically reflect on and update the query plans for that step and subsequent steps.
+
+3. If papers in a step pass screening, the system proceeds to the next step, repeating the above process.
+
+### Phase 2: Deep Analysis and Report Generation
+![2.png](2.png)
+
+4. After completing paper searches for all steps, the system ranks the retained literature from each step according to preset rules and selects the top N papers for download.
+
+5. To ensure comprehensive and accessible literature acquisition, the system integrates three open access resources: Europe PMC, Unpaywall, and SCI-HUB, maximizing coverage of all downloadable paper versions and improving literature accessibility and utilization.
+
+6. Subsequently, the system uses large language models to summarize each paper's content, extracting information highly relevant to the user's input. Finally, all step summaries are integrated according to the user's input and plan, with the large language model generating a complete review report.
