@@ -1,0 +1,31 @@
+# 大模型设置
+OPENAI_API_BASE:
+OPENAI_API_KEY:
+text_model: "claude-sonnet-4-20250514" # 用于内容生成的模型 kimi-k2-0711-preview、gpt-5-2025-08-07、claude-sonnet-4-20250514
+json_model: "kimi-k2-0711-preview" #用于json内容生成的模型
+
+# 并发线程池
+max_workers: 10
+
+# 日志设置
+logging:
+  level: INFO          # DEBUG/INFO/WARNING/ERROR/CRITICAL
+  log_dir: "log"      # 相对或绝对路径
+  filename: "paperagent.log" # log文件名
+  max_bytes: 10_000_000   # 单文件最大 10 MB
+  backup_count: 5         # 保留 5 个历史文件
+  console: true           # 是否同时输出到控制台
+  format: "%(asctime)s [%(levelname)s] %(name)s | %(message)s"
+
+
+# 每个节点的超参数
+nodes:
+  background_investigation_node:
+    max_results: 3 # 最大搜索返回的结果数
+  paper_search_node:
+    max_results: 10 # 最大论文结果搜索返回的结果数
+  paper_rerank_download_node:
+    paper_save_dir: # 加载论文的保存文件夹，默认是../papers
+    READ_PAPER_NUM: 3  # 每个步骤的精度论文篇数，也就是下载论文篇数，并使用论文进行总结
+    ABS_PAPER_NUM: 3  # 每个步骤的粗度论文篇数，也就是使用摘要进行总结
+

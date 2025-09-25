@@ -1,0 +1,1386 @@
+2025-08-04 16:58:41,838 - __main__ - INFO - Planner Node is running.
+2025-08-04 16:59:15,324 - __main__ - DEBUG - {
+  "thought": "To analyze THBS2's dual functions in tumor immunity, I need to construct a logical chain that starts with THBS2's basic immunomodulatory properties and progresses through its immunosuppressive mechanisms, then connects to checkpoint inhibitor responses, and finally evaluates its biomarker potential. This chain should cover molecular mechanisms, cellular interactions, clinical correlations, and therapeutic implications. The logical progression moves from fundamental biology to clinical applications, ensuring each step builds upon previous findings and can be validated through literature searches.",
+  "Logical_chain": "THBS2 expression in tumor microenvironment → THBS2-mediated immunosuppressive mechanisms (T cell inhibition, macrophage polarization, dendritic cell dysfunction) → THBS2 interaction with immune checkpoint pathways → Correlation between THBS2 levels and checkpoint inhibitor treatment responses → THBS2 as predictive biomarker for immunotherapy efficacy → Clinical validation and therapeutic targeting strategies",
+  "steps": [
+    {
+      "relationship": "Foundation step establishing THBS2's presence and basic immunomodulatory role in cancer",
+      "purpose": "To establish the baseline understanding of THBS2 expression patterns in tumors and its general impact on immune cell function, which is essential for understanding subsequent immunosuppressive mechanisms",
+      "Verification_Point": "Whether THBS2 is differentially expressed in tumor microenvironments and has documented effects on immune cell populations",
+      "Step_query": "THBS2 AND tumor microenvironment AND immune cells AND expression AND cancer"
+    },
+    {
+      "relationship": "Mechanistic elaboration of how THBS2 creates immunosuppressive conditions",
+      "purpose": "To identify specific molecular and cellular mechanisms by which THBS2 suppresses anti-tumor immunity, including effects on different immune cell types and their functions",
+      "Verification_Point": "Whether THBS2 has documented immunosuppressive effects on T cells, macrophages, and dendritic cells through specific molecular pathways",
+      "Step_query": "THBS2 AND immunosuppression AND T cells AND macrophages AND dendritic cells AND mechanisms"
+    },
+    {
+      "relationship": "Connection between THBS2 function and established checkpoint inhibitor pathways",
+      "purpose": "To determine if THBS2 interacts with or influences known immune checkpoint molecules and pathways, which would explain its relevance to checkpoint inhibitor therapy",
+      "Verification_Point": "Whether THBS2 interacts with or modulates immune checkpoint molecules like PD-1, PD-L1, CTLA-4, or their signaling pathways",
+      "Step_query": "THBS2 AND immune checkpoint AND PD-1 AND PD-L1 AND CTLA-4 AND interaction"
+    },
+    {
+      "relationship": "Clinical correlation linking THBS2 levels to therapeutic outcomes",
+      "purpose": "To establish whether THBS2 expression levels correlate with patient responses to checkpoint inhibitor immunotherapy, providing evidence for its predictive value",
+      "Verification_Point": "Whether clinical studies show correlations between THBS2 expression levels and patient responses to checkpoint inhibitor treatments",
+      "Step_query": "THBS2 AND checkpoint inhibitor AND immunotherapy AND response AND clinical AND correlation"
+    },
+    {
+      "relationship": "Biomarker validation and predictive utility assessment",
+      "purpose": "To evaluate THBS2's potential as a predictive biomarker for immunotherapy efficacy, including sensitivity, specificity, and clinical utility compared to existing biomarkers",
+      "Verification_Point": "Whether THBS2 demonstrates biomarker characteristics for predicting immunotherapy responses with adequate sensitivity and specificity",
+      "Step_query": "THBS2 AND biomarker AND predictive AND immunotherapy AND sensitivity AND specificity"
+    },
+    {
+      "relationship": "Translational application and therapeutic development",
+      "purpose": "To identify clinical validation studies and potential therapeutic strategies targeting THBS2 to enhance immunotherapy efficacy",
+      "Verification_Point": "Whether there are clinical trials or therapeutic strategies targeting THBS2 to improve cancer immunotherapy outcomes",
+      "Step_query": "THBS2 AND therapeutic target AND clinical trial AND immunotherapy AND cancer treatment"
+    }
+  ]
+}{"relationship":"Foundation step establishing THBS2's presence and basic immunomodulatory role in cancer","purpose":"To establish the baseline understanding of THBS2 expression patterns in tumors and its general impact on immune cell function, which is essential for understanding subsequent immunosuppressive mechanisms","Verification_Point":"Whether THBS2 is differentially expressed in tumor microenvironments and has documented effects on immune cell populations","Step_query":"THBS2 AND tumor microenvironment AND immune cells AND expression AND cancer"},{"relationship":"Mechanistic elaboration of how THBS2 creates immunosuppressive conditions","purpose":"To identify specific molecular and cellular mechanisms by which THBS2 suppresses anti-tumor immunity, including effects on different immune cell types and their functions","Verification_Point":"Whether THBS2 has documented immunosuppressive effects on T cells, macrophages, and dendritic cells through specific molecular pathways","Step_query":"THBS2 AND immunosuppression AND T cells AND macrophages AND dendritic cells AND mechanisms"},{"relationship":"Connection between THBS2 function and established checkpoint inhibitor pathways","purpose":"To determine if THBS2 interacts with or influences known immune checkpoint molecules and pathways, which would explain its relevance to checkpoint inhibitor therapy","Verification_Point":"Whether THBS2 interacts with or modulates immune checkpoint molecules like PD-1, PD-L1, CTLA-4, or their signaling pathways","Step_query":"THBS2 AND immune checkpoint AND PD-1 AND PD-L1 AND CTLA-4 AND interaction"},{"relationship":"Clinical correlation linking THBS2 levels to therapeutic outcomes","purpose":"To establish whether THBS2 expression levels correlate with patient responses to checkpoint inhibitor immunotherapy, providing evidence for its predictive value","Verification_Point":"Whether clinical studies show correlations between THBS2 expression levels and patient responses to checkpoint inhibitor treatments","Step_query":"THBS2 AND checkpoint inhibitor AND immunotherapy AND response AND clinical AND correlation"},{"relationship":"Biomarker validation and predictive utility assessment","purpose":"To evaluate THBS2's potential as a predictive biomarker for immunotherapy efficacy, including sensitivity, specificity, and clinical utility compared to existing biomarkers","Verification_Point":"Whether THBS2 demonstrates biomarker characteristics for predicting immunotherapy responses with adequate sensitivity and specificity","Step_query":"THBS2 AND biomarker AND predictive AND immunotherapy AND sensitivity AND specificity"},{"relationship":"Translational application and therapeutic development","purpose":"To identify clinical validation studies and potential therapeutic strategies targeting THBS2 to enhance immunotherapy efficacy","Verification_Point":"Whether there are clinical trials or therapeutic strategies targeting THBS2 to improve cancer immunotherapy outcomes","Step_query":"THBS2 AND therapeutic target AND clinical trial AND immunotherapy AND cancer treatment"}
+2025-08-04 16:59:15,334 - __main__ - INFO - Paper Search Node is running.
+2025-08-04 17:03:20,149 - __main__ - INFO - Planner Node is running.
+2025-08-04 17:03:49,699 - __main__ - DEBUG - {
+  "thought": "To analyze THBS2's dual functions in tumor immunity, I need to construct a logical chain that systematically examines: 1) THBS2's basic immunomodulatory functions, 2) its immunosuppressive mechanisms in the tumor microenvironment, 3) its relationship with immune checkpoint pathways, 4) its correlation with checkpoint inhibitor treatment responses, and 5) its potential as a biomarker. This chain progresses from molecular mechanisms to clinical applications, ensuring each step builds logically toward understanding THBS2's complex role in tumor immunity and therapeutic implications.",
+  "Logical_chain": "Starting from THBS2's basic immunomodulatory properties → examining its immunosuppressive mechanisms in tumor microenvironment → investigating its interaction with immune checkpoint pathways → analyzing correlation with checkpoint inhibitor responses → evaluating biomarker potential for predicting treatment outcomes",
+  "steps": [
+    {
+      "relationship": "Foundation step establishing THBS2's basic immunomodulatory properties",
+      "purpose": "To establish the fundamental understanding of how THBS2 regulates immune cell functions and inflammatory responses",
+      "Verification_Point": "Whether THBS2 has documented immunomodulatory functions affecting immune cell activation, migration, or cytokine production",
+      "Step_query": "THBS2 AND immune modulation AND immune cells AND cytokines AND inflammation"
+    },
+    {
+      "relationship": "Building upon basic immunomodulatory functions to examine specific immunosuppressive mechanisms",
+      "purpose": "To identify the specific molecular pathways through which THBS2 suppresses immune responses in cancer contexts",
+      "Verification_Point": "Whether THBS2 promotes immunosuppression through specific mechanisms such as T cell inhibition, regulatory T cell activation, or myeloid-derived suppressor cell recruitment",
+      "Verification_Point": "Whether THBS2 promotes immunosuppression through specific mechanisms such as T cell inhibition, regulatory T cell activation, or myeloid-derived suppressor cell recruitment",
+      "Step_query": "THBS2 AND immunosuppression AND tumor microenvironment AND T cells AND regulatory T cells AND myeloid derived suppressor cells"
+    },
+    {
+      "relationship": "Connecting immunosuppressive mechanisms to checkpoint inhibitor pathways",
+      "purpose": "To understand how THBS2's immunosuppressive functions relate to immune checkpoint molecules and pathways",
+      "Verification_Point": "Whether THBS2 interacts with or influences immune checkpoint molecules like PD-1, PD-L1, CTLA-4, or other checkpoint pathways",
+      "Step_query": "THBS2 AND immune checkpoint AND PD-1 AND PD-L1 AND CTLA-4 AND checkpoint inhibitors"
+    },
+    {
+      "relationship": "Examining the clinical correlation between THBS2 expression and checkpoint inhibitor treatment outcomes",
+      "purpose": "To determine if THBS2 levels correlate with patient responses to immune checkpoint inhibitor therapies",
+      "Verification_Point": "Whether THBS2 expression levels correlate with response rates, progression-free survival, or overall survival in patients treated with checkpoint inhibitors",
+      "Step_query": "THBS2 AND checkpoint inhibitor response AND immunotherapy AND treatment outcome AND survival AND biomarker"
+    },
+    {
+      "relationship": "Evaluating THBS2's potential as a predictive biomarker based on its correlation with treatment responses",
+      "purpose": "To assess whether THBS2 can serve as a reliable biomarker for predicting immunotherapy responses and guiding treatment decisions",
+      "Verification_Point": "Whether THBS2 demonstrates sufficient predictive accuracy and clinical utility as a biomarker for immunotherapy response prediction",
+      "Step_query": "THBS2 AND predictive biomarker AND immunotherapy AND checkpoint inhibitor AND treatment selection AND precision medicine"
+    },
+    {
+      "relationship": "Investigating the dual nature of THBS2's functions in different tumor contexts",
+      "purpose": "To understand how THBS2 may have both pro-tumorigenic and anti-tumorigenic effects depending on tumor type, stage, or microenvironment",
+      "Verification_Point": "Whether THBS2 shows context-dependent effects, potentially promoting immunity in some scenarios while suppressing it in others",
+      "Step_query": "THBS2 AND dual function AND tumor immunity AND context dependent AND pro tumorigenic AND anti tumorigenic"
+    }
+  ]
+}{
+  "thought": "The analysis of THBS2's dual functions in tumor immunity reveals a complex interplay between its immunosuppressive mechanisms and potential as a biomarker. Each step in the logical chain highlights critical aspects of THBS2's role in the tumor microenvironment and its implications for immunotherapy.",
+  "Logical_chain": "Continuing from the investigation of THBS2's dual nature in various tumor contexts → synthesizing findings to draw conclusions about its overall impact on tumor immunity and therapeutic strategies",
+  "steps": [
+    {
+      "relationship": "Synthesis of findings from previous steps to draw comprehensive conclusions",
+      "purpose": "To integrate insights from THBS2's immunomodulatory functions, immunosuppressive mechanisms, and clinical correlations",
+      "Verification_Point": "Whether the combined evidence supports a coherent understanding of THBS2's role in tumor immunity",
+      "Step_query": "THBS2 AND synthesis AND tumor immunity AND immunotherapy AND clinical implications"
+    },
+    {
+      "relationship": "Exploring potential therapeutic strategies targeting THBS2",
+      "purpose": "To identify how modulating THBS2 activity could enhance immunotherapy efficacy",
+      "Verification_Point": "Whether targeting THBS2 can reverse immunosuppression or enhance anti-tumor immunity",
+      "Step_query": "THBS2 AND therapeutic targeting AND immunotherapy enhancement AND tumor microenvironment"
+    },
+    {
+      "relationship": "Assessing the future research directions regarding THBS2",
+      "purpose": "To outline potential areas for further investigation to clarify THBS2's role in tumor immunity",
+      "Verification_Point": "Whether there are gaps in current knowledge that warrant additional studies on THBS2",
+      "Step_query": "THBS2 AND future research AND tumor immunity AND knowledge gaps"
+    }
+  ]
+}
+2025-08-04 17:03:49,710 - __main__ - INFO - Paper Search Node is running.
+2025-08-04 17:04:52,195 - __main__ - INFO - Planner Node is running.
+2025-08-04 17:20:47,942 - __main__ - INFO - Planner Node is running.
+2025-08-04 17:28:27,042 - __main__ - INFO - Planner Node is running.
+2025-08-04 17:28:42,059 - __main__ - DEBUG - {
+  "thought": "The user is asking about THBS2 (Thrombospondin-2) and its dual functions in tumor immunity. To create a logical chain, I need to start with establishing THBS2's basic role in the tumor microenvironment, then explore its immunosuppressive mechanisms, how it correlates with checkpoint inhibitor responses, and finally its potential as a biomarker. This requires a step-by-step approach that connects molecular mechanisms to clinical applications. I'll ensure each step is verifiable through scientific literature searches and maintains a clear progression from basic biology to clinical relevance.",
+  "Logical_chain": "THBS2 expression in tumor microenvironment → THBS2 structure and basic functions → THBS2's interactions with immune cells → Specific immunosuppressive mechanisms of THBS2 → THBS2's relationship with immune checkpoint molecules → THBS2 correlation with checkpoint inhibitor response → Evaluation of THBS2 as a potential biomarker for immunotherapy response",
+  "steps": [
+    {
+      "relationship": "Starting point",
+      "purpose": "To establish the presence and expression patterns of THBS2 in various tumor microenvironments",
+      "Verification_Point": "Expression levels and patterns of THBS2 in different cancer types and their tumor microenvironments",
+      "Step_query": "THBS2 AND tumor microenvironment AND expression AND cancer"
+    },
+    {
+      "relationship": "Foundation",
+      "purpose": "To understand the structural characteristics and basic biological functions of THBS2 that may relate to its immune functions",
+      "Verification_Point": "Molecular structure and fundamental biological functions of THBS2 with potential relevance to immune regulation",
+      "Step_query": "THBS2 AND structure AND function AND immune"
+    },
+    {
+      "relationship": "Mechanism",
+      "purpose": "To identify how THBS2 interacts with various immune cell populations in the tumor microenvironment",
+      "Verification_Point": "Direct and indirect interactions between THBS2 and immune cells (T cells, macrophages, dendritic cells, etc.)",
+      "Step_query": "THBS2 AND (T cells OR macrophages OR dendritic cells OR NK cells) AND tumor"
+    },
+    {
+      "relationship": "Consequence",
+      "purpose": "To elucidate the specific molecular mechanisms by which THBS2 contributes to immunosuppression in tumors",
+      "Verification_Point": "Molecular pathways and signaling mechanisms through which THBS2 mediates immunosuppressive effects",
+      "Step_query": "THBS2 AND immunosuppression AND mechanism AND signaling AND tumor"
+    },
+    {
+      "relationship": "Association",
+      "purpose": "To explore the relationship between THBS2 and known immune checkpoint molecules (PD-1/PD-L1, CTLA-4, etc.)",
+      "Verification_Point": "Interactions or correlations between THBS2 expression and immune checkpoint molecules",
+      "Step_query": "THBS2 AND (PD-1 OR PD-L1 OR CTLA-4 OR immune checkpoint) AND interaction"
+    },
+    {
+      "relationship": "Clinical correlation",
+      "purpose": "To assess how THBS2 levels correlate with responses to checkpoint inhibitor therapies across cancer types",
+      "Verification_Point": "Association between THBS2 expression and clinical outcomes in patients treated with immune checkpoint inhibitors",
+      "Step_query": "THBS2 AND (checkpoint inhibitor OR immunotherapy) AND (response OR outcome OR efficacy)"
+    },
+    {
+      "relationship": "Application",
+      "purpose": "To evaluate the potential of THBS2 as a biomarker for predicting immunotherapy response or stratifying patients",
+      "Verification_Point": "Evidence supporting or refuting THBS2's utility as a predictive or prognostic biomarker for immunotherapy",
+      "Step_query": "THBS2 AND biomarker AND (immunotherapy OR checkpoint inhibitor) AND prediction"
+    }
+  ]
+}
+2025-08-04 17:28:42,061 - __main__ - INFO - Paper Search Node is running.
+2025-08-04 17:29:07,819 - __main__ - INFO - 论文搜索总执行时间: 25.7580 秒
+2025-08-04 17:29:07,828 - __main__ - INFO - Paper Filter Node is running.
+2025-08-04 17:30:01,523 - __main__ - DEBUG - {
+    "biorxiv": [
+        {
+            "reason": "This paper focuses on adaptation to heavy-metal contaminated environments and has no relation to THBS2, tumor microenvironment, cancer, or expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Adaptation to heavy-metal contaminated environments proceeds via selection on pre-existing genetic variation"
+        },
+        {
+            "reason": "This paper focuses on methyl-sensitive transcription factor motifs and epigenetic alphabets, with no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Modeling methyl-sensitive transcription factor motifs with an expanded epigenetic alphabet"
+        },
+        {
+            "reason": "This paper focuses on biodiversity measurement methods across taxonomic, phylogenetic and functional diversity, with no relation to THBS2, tumor microenvironments, or cancer expression patterns.",
+            "level": 3,
+            "title": "Optimal inventorying and monitoring of taxonomic, phylogenetic and functional diversity"
+        },
+        {
+            "reason": "This paper discusses Alzheimer's disease pathogenesis related to neuronal receptor PTPσ and has no relation to THBS2, tumor microenvironments, or cancer expression patterns.",
+            "level": 3,
+            "title": "Alzheimer-related pathogenesis is dependent on neuronal receptor PTPσ."
+        },
+        {
+            "reason": "This paper focuses on Zika virus and neurotropism, with no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Zika viruses encode multiple upstream open reading frames in the 5' viral region with a role in neurotropism"
+        },
+        {
+            "reason": "This paper discusses neural activity in schizophrenia and has no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Aperiodic neural activity is a better predictor of schizophrenia than neural oscillations"
+        },
+        {
+            "reason": "This paper discusses leaf mass decomposition in plants and has no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Decomposing leaf mass into metabolic and structural components explains divergent patterns of trait variation within and among plant species"
+        },
+        {
+            "reason": "This paper focuses on cognitive processes and group means, with no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "When Group Means Fail: Can One Size Fit All?"
+        },
+        {
+            "reason": "This paper focuses on brain representation and computation of probabilities, with no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "A Radically New Theory of how the Brain Represents and Computes with Probabilities"
+        },
+        {
+            "reason": "This paper focuses on Bayesian efficient coding in neuroscience and has no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Bayesian Efficient Coding"
+        }
+    ],
+    "medrxiv": [
+        {
+            "reason": "This paper focuses on clinical encounter data heterogeneity in electronic health records and has no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Clinical encounter heterogeneity and methods for resolving in networked EHR data: A study from N3C and RECOVER programs"
+        },
+        {
+            "reason": "This paper focuses on myocardial fibrosis and cardioverter defibrillators, with no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Diffuse myocardial fibrosis associates with incident ventricular arrhythmia in implantable cardioverter defibrillator recipients"
+        },
+        {
+            "reason": "This paper focuses on COVID-19 non-pharmaceutical interventions in the Navajo Nation and has no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Quantification of early nonpharmaceutical interventions 1 aimed at slowing transmission of Coronavirus Disease 2019 in the Navajo Nation and surrounding states (Arizona, Colorado, New Mexico, and Utah)"
+        },
+        {
+            "reason": "This paper focuses on COVID-19 mass screening through self-testing in Greece and has no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "On the Impact of Mass Screening for SARS-CoV-2 through Self-Testing in Greece"
+        },
+        {
+            "reason": "This paper focuses on antimicrobial resistance in Staphylococcus aureus and has no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Quantifying patient- and hospital-level antimicrobial resistance dynamics in Staphylococcus aureus from routinely collected data"
+        },
+        {
+            "reason": "This paper focuses on underreporting of SARS-CoV-2 infections in Finland and has no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Underreporting of SARS-CoV-2 infections during the first wave of the 2020 COVID-19 epidemic in Finland - Bayesian inference based on a series of serological surveys"
+        },
+        {
+            "reason": "This paper focuses on paroxetine use among older adults and has no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Specialty-type and state-level variation in paroxetine use among older adult patients"
+        },
+        {
+            "reason": "This paper focuses on prebiotic activity of lactulose in liver disease patients and has no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Prebiotic activity of lactulose optimizes gut metabolites and prevents systemic infection in liver disease patients"
+        },
+        {
+            "reason": "This paper focuses on CCR5 deficiency and vascular dementia, with no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "CCR5 deficiency: decreased neuronal resilience to oxidative stress and increased risk of vascular dementia."
+        },
+        {
+            "reason": "This paper focuses on wastewater genomic surveillance for SARS-CoV-2 and has no relation to THBS2, tumor microenvironments, or cancer expression patterns that are central to the user query and current step.",
+            "level": 3,
+            "title": "Wastewater genomic surveillance tracks the spread of the SARS-CoV-2 Omicron variant across England"
+        }
+    ],
+    "pubmed": [
+        {
+            "reason": "This paper discusses CAFs (cancer-associated fibroblasts) in prostate cancer with a focus on antigen presentation, which is related to the tumor microenvironment aspect of the current step. However, it doesn't specifically mention THBS2, which is central to the user query.",
+            "level": 2,
+            "title": "Integrating single-cell and bulk RNA sequencing data unveils antigen presentation and process-related CAFS and establishes a predictive signature in prostate cancer."
+        },
+        {
+            "reason": "This paper is directly relevant to the user query as it specifically investigates THBS2 in the tumor microenvironment of pancreatic ductal adenocarcinoma. It discusses THBS2 expression patterns in cancer, its correlation with tumor progression, and its role in tumor-stroma interactions, which aligns with the current step's verification point about THBS2 expression in different cancer types and their tumor microenvironments.",
+            "level": 1,
+            "title": "Tumor-stroma TGF-β1-THBS2 feedback circuit drives pancreatic ductal adenocarcinoma progression via integrin α<sub>v</sub>β<sub>3</sub>/CD36-mediated activation of the MAPK pathway."
+        },
+        {
+            "reason": "This paper focuses on ligands and receptors in the tumor microenvironment of serous ovarian cancer and the role of cancer-associated fibroblasts (CAFs). While it relates to the tumor microenvironment aspect of the current step, it doesn't specifically mention THBS2, which is central to the user query.",
+            "level": 2,
+            "title": "Single-cell and bulk RNA sequencing reveal ligands and receptors associated with worse overall survival in serous ovarian cancer."
+        },
+        {
+            "reason": "This paper discusses the RP11-417E7.1/THBS2 signaling pathway in colorectal cancer, focusing on THBS2's role in metastasis and immune modulation (M2 macrophage polarization). This is directly relevant to the user query about THBS2's functions in tumor immunity and its mechanisms, and also addresses the current step's verification point about THBS2 expression in cancer.",
+            "level": 1,
+            "title": "The RP11-417E7.1/THBS2 signaling pathway promotes colorectal cancer metastasis by activating the Wnt/β-catenin pathway and facilitating exosome-mediated M2 macrophage polarization."
+        },
+        {
+            "reason": "This paper is highly relevant to both the user query and current step as it directly focuses on THBS2+ cancer-associated fibroblasts in lung adenocarcinoma, their expression patterns, and their role in immune modulation. It addresses THBS2's expression in cancer and tumor microenvironment, its interactions with immune cells, and its immunosuppressive mechanisms, which are central aspects of the user query.",
+            "level": 1,
+            "title": "Multi-scale integrative analyses identify THBS2<sup>+</sup> cancer-associated fibroblasts as a key orchestrator promoting aggressiveness in early-stage lung adenocarcinoma."
+        },
+        {
+            "reason": "This paper focuses on proteomic profiling of the tumor microenvironment in lung adenocarcinoma for prognosis prediction. While it relates to the tumor microenvironment aspect of the current step, it doesn't specifically highlight THBS2 in the abstract, though it might be included in the full study.",
+            "level": 2,
+            "title": "Proteomic profiling of tumor microenvironment and prognosis risk prediction in stage I lung adenocarcinoma."
+        },
+        {
+            "reason": "This paper directly discusses THBS2 as a fibroblast marker for detecting lymph node metastasis in colon cancer, which aligns with the current step's verification point about THBS2 expression in different cancer types. It shows how THBS2 expression patterns can be used as a biomarker, which is relevant to the user query.",
+            "level": 1,
+            "title": "Detection of lymph node metastasis in colon cancer by ectopically expressed fibroblast markers FOXQ1 and THBS2."
+        },
+        {
+            "reason": "This paper discusses the tumor microenvironment and its impact on chemotherapy response in ovarian cancer using single-cell RNA sequencing. While it relates to the tumor microenvironment aspect of the current step, it doesn't specifically mention THBS2 in the abstract.",
+            "level": 2,
+            "title": "Single-cell RNA sequencing and cell-cell communication analysis reveal tumor microenvironment associated with chemotherapy responsiveness in ovarian cancer."
+        },
+        {
+            "reason": "This paper identifies a basement membrane gene signature for predicting prognosis in prostate cancer and specifically confirms THBS2 as a key gene in their model. This is relevant to the current step's verification point about THBS2 expression in different cancer types and also touches on its potential as a biomarker, which is part of the user query.",
+            "level": 1,
+            "title": "Identification of a basement membrane gene signature for predicting prognosis and estimating the tumor immune microenvironment in prostate cancer."
+        },
+        {
+            "reason": "This paper focuses on identifying key genes associated with tumor microenvironment infiltration in gastric adenocarcinoma. While it relates to the tumor microenvironment aspect of the current step, it doesn't specifically mention THBS2 in the abstract.",
+            "level": 2,
+            "title": "Identification of Key Genes Associated with Tumor Microenvironment Infiltration and Survival in Gastric Adenocarcinoma via Bioinformatics Analysis."
+        }
+    ]
+}
+2025-08-04 17:30:01,539 - __main__ - DEBUG - {'biorxiv': {'level1': 0, 'level2': 0}, 'medrxiv': {'level1': 0, 'level2': 0}, 'pubmed': {'level1': 5, 'level2': 5}}
+2025-08-04 17:30:01,541 - __main__ - INFO - Paper Search Node is running.
+2025-08-04 17:30:36,607 - __main__ - INFO - 论文搜索总执行时间: 35.0662 秒
+2025-08-04 17:30:36,610 - __main__ - INFO - Paper Filter Node is running.
+2025-08-04 17:31:26,936 - __main__ - DEBUG - {
+    "biorxiv": [
+        {
+            "reason": "This paper focuses on adaptation to heavy-metal environments rather than discussing THBS2, structure, function or immune regulation. It doesn't address any aspect of the user query or current step requirements.",
+            "level": 3,
+            "title": "Adaptation to heavy-metal contaminated environments proceeds via selection on pre-existing genetic variation"
+        },
+        {
+            "reason": "This paper is about modeling methyl-sensitive transcription factor motifs and doesn't discuss THBS2, its structure, function or immune regulation. It's not related to either the user query or the current step.",
+            "level": 3,
+            "title": "Modeling methyl-sensitive transcription factor motifs with an expanded epigenetic alphabet"
+        },
+        {
+            "reason": "This paper is about biodiversity monitoring methods and doesn't discuss THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Optimal inventorying and monitoring of taxonomic, phylogenetic and functional diversity"
+        },
+        {
+            "reason": "This paper discusses Alzheimer's disease pathogenesis in relation to neuronal receptor PTPσ but doesn't mention THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Alzheimer-related pathogenesis is dependent on neuronal receptor PTPσ."
+        },
+        {
+            "reason": "This paper focuses on Zika virus and its open reading frames rather than THBS2, its structure, function or immune regulation. It's not related to either the user query or current step.",
+            "level": 3,
+            "title": "Zika viruses encode multiple upstream open reading frames in the 5' viral region with a role in neurotropism"
+        },
+        {
+            "reason": "This paper is about neural activity in schizophrenia and doesn't discuss THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Aperiodic neural activity is a better predictor of schizophrenia than neural oscillations"
+        },
+        {
+            "reason": "This paper is about decomposing leaf mass in plants and doesn't address THBS2, its structure, function or immune regulation. It's not related to either the user query or current step.",
+            "level": 3,
+            "title": "Decomposing leaf mass into metabolic and structural components explains divergent patterns of trait variation within and among plant species"
+        },
+        {
+            "reason": "This paper discusses cognitive process models and group means rather than THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "When Group Means Fail: Can One Size Fit All?"
+        },
+        {
+            "reason": "This paper presents a theory of how the brain represents probabilities but doesn't discuss THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "A Radically New Theory of how the Brain Represents and Computes with Probabilities"
+        },
+        {
+            "reason": "This paper discusses Bayesian efficient coding in neural systems but doesn't mention THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Bayesian Efficient Coding"
+        }
+    ],
+    "medrxiv": [
+        {
+            "reason": "This paper discusses clinical encounter data heterogeneity in electronic health records but doesn't mention THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Clinical encounter heterogeneity and methods for resolving in networked EHR data: A study from N3C and RECOVER programs"
+        },
+        {
+            "reason": "This paper focuses on diffuse myocardial fibrosis and cardioverter defibrillators but doesn't discuss THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Diffuse myocardial fibrosis associates with incident ventricular arrhythmia in implantable cardioverter defibrillator recipients"
+        },
+        {
+            "reason": "This paper is about COVID-19 transmission interventions in the Navajo Nation but doesn't mention THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Quantification of early nonpharmaceutical interventions 1 aimed at slowing transmission of Coronavirus Disease 2019 in the Navajo Nation and surrounding states (Arizona, Colorado, New Mexico, and Utah)"
+        },
+        {
+            "reason": "This paper discusses mass screening for SARS-CoV-2 in Greece but doesn't mention THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "On the Impact of Mass Screening for SARS-CoV-2 through Self-Testing in Greece"
+        },
+        {
+            "reason": "This paper is about antimicrobial resistance in Staphylococcus aureus but doesn't discuss THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Quantifying patient- and hospital-level antimicrobial resistance dynamics in Staphylococcus aureus from routinely collected data"
+        },
+        {
+            "reason": "This paper focuses on underreporting of SARS-CoV-2 infections in Finland but doesn't mention THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Underreporting of SARS-CoV-2 infections during the first wave of the 2020 COVID-19 epidemic in Finland - Bayesian inference based on a series of serological surveys"
+        },
+        {
+            "reason": "This paper discusses paroxetine use among older adults but doesn't mention THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Specialty-type and state-level variation in paroxetine use among older adult patients"
+        },
+        {
+            "reason": "This paper is about prebiotic activity of lactulose in liver disease patients but doesn't mention THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Prebiotic activity of lactulose optimizes gut metabolites and prevents systemic infection in liver disease patients"
+        },
+        {
+            "reason": "This paper discusses CCR5 deficiency and vascular dementia but doesn't mention THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "CCR5 deficiency: decreased neuronal resilience to oxidative stress and increased risk of vascular dementia."
+        },
+        {
+            "reason": "This paper is about wastewater genomic surveillance for SARS-CoV-2 variants but doesn't mention THBS2, its structure, function or immune regulation. It's not relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Wastewater genomic surveillance tracks the spread of the SARS-CoV-2 Omicron variant across England"
+        }
+    ],
+    "pubmed": [
+        {
+            "reason": "This paper directly addresses the prognostic and immunological role of THBS2 in colorectal cancer. It is highly relevant to the user query as it specifically focuses on THBS2's immunological functions and its potential role as a prognostic marker, which aligns with the query's focus on THBS2's functions in tumor immunity, immunosuppressive mechanisms, and biomarker potential.",
+            "level": 1,
+            "title": "Prognostic and Immunological Role of THBS2 in Colorectal cancer."
+        },
+        {
+            "reason": "This paper is relevant to the user query as it identifies thrombospondin-2 (THBS2) as a protective factor in pulmonary arterial hypertension and discusses its plasma proteome implications. It mentions THBS2 in relation to molecular pathology and its role as a potential biomarker, which connects to the user's interest in THBS2's functions and biomarker potential, though not specifically in tumor immunity.",
+            "level": 2,
+            "title": "Mining the Plasma Proteome for Insights into the Molecular Pathology of Pulmonary Arterial Hypertension."
+        },
+        {
+            "reason": "While this paper mentions molecular mechanisms in dermatomyositis-related interstitial lung disease, the abstract doesn't specifically discuss THBS2's structure, function, or immune regulation. Without clear indication that THBS2 is a focus of the paper, it doesn't appear to be directly relevant to either the user query or current step.",
+            "level": 3,
+            "title": "The molecular mechanism underlying dermatomyositis related interstitial lung disease: evidence from bioinformatic analysis and in vivo validation."
+        },
+        {
+            "reason": "This paper identifies THBS2 as a significantly downregulated gene in pancreatic cancer. It provides some insights into THBS2's role in the molecular pathology of pancreatic cancer, which relates to the user query about THBS2's functions in tumor contexts, though it doesn't specifically focus on immune functions.",
+            "level": 2,
+            "title": "Gene Expression Network Analysis of Precursor Lesions in Familial Pancreatic Cancer."
+        },
+        {
+            "reason": "This paper directly addresses the structure and functions of thrombospondins, specifically mentioning both TSP-1 and TSP-2 (THBS2) and their roles in immune regulation. It discusses their structural characteristics, biological functions including TGF-β regulation, angiogenesis, wound healing, and inflammatory immune responses. This perfectly aligns with the current step's purpose of understanding THBS2's structural characteristics and biological functions related to immune functions.",
+            "level": 1,
+            "title": "Matricellular protein thrombospondins: influence on ocular angiogenesis, wound healing and immuneregulation."
+        },
+        {
+            "reason": "This paper mentions thrombospondin-2 as one of several genetic factors that impact intervertebral disc stability. While it does provide some information about THBS2's function in a specific context, it doesn't focus on THBS2's structure or immune functions, making it only peripherally related to the current step.",
+            "level": 2,
+            "title": "Current evidence for a modulation of low back pain by human genetic variants."
+        },
+        {
+            "reason": "This paper mentions THBS2 as one of several genes involved in extracellular matrix-receptor interactions in chicken egg yolk formation. While it provides some functional information about THBS2, it doesn't focus on its structure or immune functions, making it only peripherally related to the current step.",
+            "level": 2,
+            "title": "Integrated metabolome and transcriptome analysis reveals key genes and pathways associated with egg yolk percentage in chicken."
+        },
+        {
+            "reason": "This paper directly studies thrombospondins (including THBS2) expression in human abdominal aortic aneurysm. It discusses structural aspects of thrombospondins and their effects on extracellular matrix, which relates to the current step's focus on understanding THBS2's structural characteristics and biological functions. However, it doesn't specifically address immune functions of THBS2, making it partially aligned with the current step.",
+            "level": 2,
+            "title": "mRNA Expression of thrombospondin 1, 2 and 3 from proximal to distal in human abdominal aortic aneurysm - preliminary report."
+        }
+    ]
+}
+2025-08-04 17:31:26,940 - __main__ - DEBUG - {'biorxiv': {'level1': 0, 'level2': 0}, 'medrxiv': {'level1': 0, 'level2': 0}, 'pubmed': {'level1': 2, 'level2': 5}}
+2025-08-04 17:31:26,942 - __main__ - INFO - Paper Search Node is running.
+2025-08-04 17:31:40,531 - __main__ - INFO - 论文搜索总执行时间: 13.5904 秒
+2025-08-04 17:31:40,534 - __main__ - INFO - Paper Filter Node is running.
+2025-08-04 17:32:37,126 - __main__ - DEBUG - {
+    "biorxiv": [
+        {
+            "reason": "This paper focuses on adaptation to heavy metal contamination in plants and has no relation to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Adaptation to heavy-metal contaminated environments proceeds via selection on pre-existing genetic variation"
+        },
+        {
+            "reason": "This paper discusses methyl-sensitive transcription factor motifs and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Modeling methyl-sensitive transcription factor motifs with an expanded epigenetic alphabet"
+        },
+        {
+            "reason": "This paper is about biodiversity monitoring techniques and has no connection to THBS2, immune interactions, or cancer. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Optimal inventorying and monitoring of taxonomic, phylogenetic and functional diversity"
+        },
+        {
+            "reason": "This paper focuses on Alzheimer's disease and the role of neuronal receptor PTPσ, which is unrelated to THBS2 or tumor immunity. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Alzheimer-related pathogenesis is dependent on neuronal receptor PTPσ."
+        },
+        {
+            "reason": "This paper examines Zika virus encoding and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Zika viruses encode multiple upstream open reading frames in the 5' viral region with a role in neurotropism"
+        },
+        {
+            "reason": "This paper is about neural activity in schizophrenia and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Aperiodic neural activity is a better predictor of schizophrenia than neural oscillations"
+        },
+        {
+            "reason": "This paper focuses on decomposing leaf mass in plants and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Decomposing leaf mass into metabolic and structural components explains divergent patterns of trait variation within and among plant species"
+        },
+        {
+            "reason": "This paper is about group means in cognitive processes and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "When Group Means Fail: Can One Size Fit All?"
+        },
+        {
+            "reason": "This paper discusses brain representations of probabilities and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "A Radically New Theory of how the Brain Represents and Computes with Probabilities"
+        },
+        {
+            "reason": "This paper is about efficient coding in neural processing and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Bayesian Efficient Coding"
+        }
+    ],
+    "medrxiv": [
+        {
+            "reason": "This paper discusses clinical encounter heterogeneity in electronic health records and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Clinical encounter heterogeneity and methods for resolving in networked EHR data: A study from N3C and RECOVER programs"
+        },
+        {
+            "reason": "This paper examines diffuse myocardial fibrosis and ventricular arrhythmia in ICD recipients, with no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Diffuse myocardial fibrosis associates with incident ventricular arrhythmia in implantable cardioverter defibrillator recipients"
+        },
+        {
+            "reason": "This paper analyzes non-pharmaceutical interventions for COVID-19 in the Navajo Nation and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Quantification of early nonpharmaceutical interventions 1 aimed at slowing transmission of Coronavirus Disease 2019 in the Navajo Nation and surrounding states (Arizona, Colorado, New Mexico, and Utah)"
+        },
+        {
+            "reason": "This paper discusses self-testing for SARS-CoV-2 in Greece and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "On the Impact of Mass Screening for SARS-CoV-2 through Self-Testing in Greece"
+        },
+        {
+            "reason": "This paper focuses on antimicrobial resistance in Staphylococcus aureus and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Quantifying patient- and hospital-level antimicrobial resistance dynamics in Staphylococcus aureus from routinely collected data"
+        },
+        {
+            "reason": "This paper examines underreporting of SARS-CoV-2 infections during the COVID-19 pandemic in Finland and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Underreporting of SARS-CoV-2 infections during the first wave of the 2020 COVID-19 epidemic in Finland - Bayesian inference based on a series of serological surveys"
+        },
+        {
+            "reason": "This paper discusses variations in paroxetine use among older adults and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Specialty-type and state-level variation in paroxetine use among older adult patients"
+        },
+        {
+            "reason": "This paper examines prebiotic activity of lactulose in liver disease patients and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Prebiotic activity of lactulose optimizes gut metabolites and prevents systemic infection in liver disease patients"
+        },
+        {
+            "reason": "This paper focuses on CCR5 deficiency in relation to vascular dementia and has no connection to THBS2, immune cells in tumors, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "CCR5 deficiency: decreased neuronal resilience to oxidative stress and increased risk of vascular dementia."
+        },
+        {
+            "reason": "This paper discusses wastewater genomic surveillance for tracking SARS-CoV-2 variants and has no connection to THBS2, immune cells, or tumor microenvironment. It does not address any aspect of the User_Query or the Current_Step.",
+            "level": 3,
+            "title": "Wastewater genomic surveillance tracks the spread of the SARS-CoV-2 Omicron variant across England"
+        }
+    ],
+    "pubmed": [
+        {
+            "reason": "This paper is closely related to the user's query as it discusses CAF-macrophage crosstalk in tumor microenvironments and its influence on the response to immune checkpoint blockade in gastric cancer. This directly addresses both the User_Query about THBS2's role in tumor immunity and checkpoint inhibitor responses, as well as the Current_Step about interactions between immune cells in the tumor microenvironment.",
+            "level": 1,
+            "title": "CAF-macrophage crosstalk in tumour microenvironments governs the response to immune checkpoint blockade in gastric cancer peritoneal metastases."
+        },
+        {
+            "reason": "This paper is related to the Current_Step as it discusses cancer-associated fibroblasts (CAFs) with antigen presentation capacity in prostate cancer, which involves interaction with immune cells in the tumor microenvironment. While it doesn't specifically mention THBS2, it addresses the verification point of the current step regarding interactions between stromal cells and immune cells in tumors.",
+            "level": 2,
+            "title": "Integrating single-cell and bulk RNA sequencing data unveils antigen presentation and process-related CAFS and establishes a predictive signature in prostate cancer."
+        },
+        {
+            "reason": "This paper is closely related to the User_Query as it directly studies the role of XBP1 in regulating tumor-associated macrophages (TAMs) in colorectal cancer, specifically mentioning THBS1 (related to THBS2) and its impact on immune signaling. The paper demonstrates how XBP1 controls phagocytosis by regulating THBS1 expression, which relates to the immunosuppressive mechanisms of thrombospondins in the tumor microenvironment, directly addressing the Current_Step's focus on interactions between thrombospondins and immune cells.",
+            "level": 1,
+            "title": "XBP1 regulates the protumoral function of tumor-associated macrophages in human colorectal cancer."
+        },
+        {
+            "reason": "This paper is directly related to the User_Query as it specifically investigates THBS2+ cancer-associated fibroblasts in lung adenocarcinoma, demonstrating their interactions with immune cells including B cells, CD8+ T cells, and macrophages. The paper shows that THBS2 expression correlates with suppressed antitumor immunity and poor response to immunotherapies, which addresses both the immunosuppressive mechanisms of THBS2 and its correlation with checkpoint inhibitor responses mentioned in the User_Query.",
+            "level": 1,
+            "title": "Multi-scale integrative analyses identify THBS2+ cancer-associated fibroblasts as a key orchestrator promoting aggressiveness in early-stage lung adenocarcinoma."
+        },
+        {
+            "reason": "This paper is closely related to the User_Query as it directly investigates how the RP11-417E7.1/THBS2 signaling pathway affects colorectal cancer metastasis by facilitating M2 macrophage polarization. This addresses the immunosuppressive mechanisms of THBS2 mentioned in the User_Query and the interaction with macrophages mentioned in the Current_Step.",
+            "level": 1,
+            "title": "The RP11-417E7.1/THBS2 signaling pathway promotes colorectal cancer metastasis by activating the Wnt/β-catenin pathway and facilitating exosome-mediated M2 macrophage polarization."
+        },
+        {
+            "reason": "This paper is closely related to the User_Query as it directly studies THBS2 expression in colorectal cancer cells and its role in inhibiting tumor immunity through the HIF1A/Lactic Acid/GPR132 pathway. This addresses the immunosuppressive mechanisms of THBS2 mentioned in the User_Query and provides insight into the molecular pathways involved.",
+            "level": 1,
+            "title": "Systematic analysis of integrated bioinformatics to identify upregulated THBS2 expression in colorectal cancer cells inhibiting tumour immunity through the HIF1A/Lactic Acid/GPR132 pathway."
+        },
+        {
+            "reason": "This paper is closely related to the User_Query as it directly investigates the relationship between THBS2 expression and immune cell infiltration in gastric cancer, showing a positive correlation with macrophage infiltration. The paper also demonstrates that THBS2 is associated with poor prognosis, which relates to the biomarker potential mentioned in the User_Query.",
+            "level": 1,
+            "title": "THBS2 is Closely Related to the Poor Prognosis and Immune Cell Infiltration of Gastric Cancer."
+        },
+        {
+            "reason": "This paper is closely related to the User_Query as it directly investigates how blocking the TCA cycle in cancer cells suppresses THBS2 signaling, which enhances CD36+ T-cell-mediated antitumor immunity. This addresses both the immunosuppressive mechanisms of THBS2 and its interaction with T cells mentioned in the Current_Step.",
+            "level": 1,
+            "title": "Blocking the TCA Cycle in Cancer Cells Potentiates CD36+ T-cell-Mediated Antitumor Immunity by Suppressing ER Stress-Associated THBS2 Signaling."
+        },
+        {
+            "reason": "This paper is closely related to the User_Query as it directly identifies THBS2 as a marker associated with M2 macrophages and discusses its role in inflammatory cancer transformation. This addresses both the interaction between THBS2 and macrophages mentioned in the Current_Step and the biomarker potential of THBS2 mentioned in the User_Query.",
+            "level": 1,
+            "title": "Identification of the M2 Macrophage-associated Gene THBS2 as a Predictive Marker for Inflammatory Cancer Transformation."
+        },
+        {
+            "reason": "This paper is closely related to the User_Query as it directly investigates the function and clinical value of thrombospondins (including THBS2) in colon cancer, specifically examining their roles in anti-tumor immunity. This addresses both the immunomodulatory functions of THBS2 mentioned in the User_Query and potentially its interactions with immune cells mentioned in the Current_Step.",
+            "level": 1,
+            "title": "Integrating bulk RNA-seq and scRNA-seq analyses revealed the function and clinical value of thrombospondins in colon cancer."
+        }
+    ]
+}
+2025-08-04 17:32:37,132 - __main__ - DEBUG - {'biorxiv': {'level1': 0, 'level2': 0}, 'medrxiv': {'level1': 0, 'level2': 0}, 'pubmed': {'level1': 8, 'level2': 1}}
+2025-08-04 17:32:37,134 - __main__ - INFO - Paper Search Node is running.
+2025-08-04 17:32:56,860 - __main__ - INFO - 论文搜索总执行时间: 19.7257 秒
+2025-08-04 17:32:56,867 - __main__ - INFO - Paper Filter Node is running.
+2025-08-04 17:34:02,032 - __main__ - DEBUG - {
+    "biorxiv":[
+        {
+            "reason": "This paper is not related to THBS2, immunosuppression, molecular mechanisms, signaling, or tumors. It focuses on adaptation to heavy-metal contaminated environments in plants, which has no relevance to the user query about THBS2's functions in tumor immunity or to the current step about THBS2's immunosuppressive mechanisms.",
+            "level": 3,
+            "title": "Adaptation to heavy-metal contaminated environments proceeds via selection on pre-existing genetic variation"
+        },
+        {
+            "reason": "This paper focuses on modeling methyl-sensitive transcription factor motifs and has no connection to THBS2, immunosuppression, or tumor biology. It discusses DNA modifications and transcription factor binding but is unrelated to the current step's focus on molecular mechanisms of THBS2-mediated immunosuppression in tumors.",
+            "level": 3,
+            "title": "Modeling methyl-sensitive transcription factor motifs with an expanded epigenetic alphabet"
+        },
+        {
+            "reason": "This paper discusses methods for monitoring taxonomic, phylogenetic and functional diversity in ecological contexts. It has no relation to THBS2, immunosuppression, molecular mechanisms, signaling pathways, or tumor biology, making it completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Optimal inventorying and monitoring of taxonomic, phylogenetic and functional diversity"
+        },
+        {
+            "reason": "This paper discusses Alzheimer's disease pathogenesis related to neuronal receptor PTPσ. While it does involve molecular signaling mechanisms, it is not related to THBS2, immunosuppression, or tumor biology. The paper focuses on a different protein (PTPσ) in a different disease context (Alzheimer's) with no connection to tumor immunity.",
+            "level": 3,
+            "title": "Alzheimer-related pathogenesis is dependent on neuronal receptor PTPσ."
+        },
+        {
+            "reason": "This paper focuses on Zika virus and upstream open reading frames with a role in neurotropism. It has no connection to THBS2, immunosuppression mechanisms, or tumor biology. The subject matter is completely unrelated to the current step's focus on THBS2's role in tumor immunosuppression.",
+            "level": 3,
+            "title": "Zika viruses encode multiple upstream open reading frames in the 5' viral region with a role in neurotropism"
+        },
+        {
+            "reason": "This paper discusses aperiodic neural activity as a predictor of schizophrenia, which is unrelated to THBS2, immunosuppression, or tumor biology. It focuses on neural oscillations and EEG signals in a psychiatric disorder context with no connection to the current step's focus on molecular mechanisms of THBS2 in tumors.",
+            "level": 3,
+            "title": "Aperiodic neural activity is a better predictor of schizophrenia than neural oscillations"
+        },
+        {
+            "reason": "This paper focuses on decomposing leaf mass in plants and has no relation to THBS2, immunosuppression, molecular mechanisms, signaling, or tumors. It's a plant biology paper with no connection to the user query about THBS2's functions in tumor immunity or to the current step.",
+            "level": 3,
+            "title": "Decomposing leaf mass into metabolic and structural components explains divergent patterns of trait variation within and among plant species"
+        },
+        {
+            "reason": "This paper discusses cognitive process models and individual differences in memory scanning tasks. It has no connection to THBS2, immunosuppression, molecular mechanisms, signaling, or tumors. The paper is focused on cognitive psychology with no relation to the current step or user query.",
+            "level": 3,
+            "title": "When Group Means Fail: Can One Size Fit All?"
+        },
+        {
+            "reason": "This paper presents a theory about how the brain represents and computes with probabilities. It has no connection to THBS2, immunosuppression, molecular mechanisms, signaling, or tumors. The paper is focused on neuroscience and computational models with no relation to the current step or user query.",
+            "level": 3,
+            "title": "A Radically New Theory of how the Brain Represents and Computes with Probabilities"
+        },
+        {
+            "reason": "This paper discusses Bayesian efficient coding in the context of sensory systems and neural coding. It has no connection to THBS2, immunosuppression, molecular mechanisms, signaling, or tumors. The paper is focused on theoretical neuroscience with no relation to the current step or user query.",
+            "level": 3,
+            "title": "Bayesian Efficient Coding"
+        }
+    ],
+    "medrxiv":[
+        {
+            "reason": "This paper focuses on methods for resolving clinical encounter heterogeneity in electronic health record data. It has no connection to THBS2, immunosuppression mechanisms, signaling pathways, or tumor biology. The paper is about data processing methods in healthcare records with no relation to the current step or user query.",
+            "level": 3,
+            "title": "Clinical encounter heterogeneity and methods for resolving in networked EHR data: A study from N3C and RECOVER programs"
+        },
+        {
+            "reason": "This paper discusses diffuse myocardial fibrosis and its association with ventricular arrhythmia in ICD recipients. While it discusses fibrosis (which could be tangentially related to extracellular matrix proteins like THBS2), it is focused on cardiac conditions and has no direct connection to THBS2, immunosuppression, or tumor biology. The paper is about cardiac pathology with no clear relation to the current step.",
+            "level": 3,
+            "title": "Diffuse myocardial fibrosis associates with incident ventricular arrhythmia in implantable cardioverter defibrillator recipients"
+        },
+        {
+            "reason": "This paper discusses quantification of early non-pharmaceutical interventions aimed at slowing COVID-19 transmission. It has no connection to THBS2, immunosuppression mechanisms, signaling pathways, or tumor biology. The paper is about epidemiological modeling with no relation to the current step or user query.",
+            "level": 3,
+            "title": "Quantification of early nonpharmaceutical interventions 1 aimed at slowing transmission of Coronavirus Disease 2019 in the Navajo Nation and surrounding states (Arizona, Colorado, New Mexico, and Utah)"
+        },
+        {
+            "reason": "This paper discusses the impact of mass screening for SARS-CoV-2 through self-testing in Greece. It has no connection to THBS2, immunosuppression mechanisms, signaling pathways, or tumor biology. The paper is about COVID-19 screening programs with no relation to the current step or user query.",
+            "level": 3,
+            "title": "On the Impact of Mass Screening for SARS-CoV-2 through Self-Testing in Greece"
+        },
+        {
+            "reason": "This paper discusses quantifying antimicrobial resistance dynamics in Staphylococcus aureus. It has no connection to THBS2, immunosuppression mechanisms, signaling pathways, or tumor biology. The paper is about bacterial resistance patterns with no relation to the current step or user query.",
+            "level": 3,
+            "title": "Quantifying patient- and hospital-level antimicrobial resistance dynamics in Staphylococcus aureus from routinely collected data"
+        },
+        {
+            "reason": "This paper discusses underreporting of SARS-CoV-2 infections during the first wave of COVID-19 in Finland. It has no connection to THBS2, immunosuppression mechanisms, signaling pathways, or tumor biology. The paper is about epidemiological modeling with no relation to the current step or user query.",
+            "level": 3,
+            "title": "Underreporting of SARS-CoV-2 infections during the first wave of the 2020 COVID-19 epidemic in Finland - Bayesian inference based on a series of serological surveys"
+        },
+        {
+            "reason": "This paper discusses specialty-type and state-level variation in paroxetine use among older adult patients. It has no connection to THBS2, immunosuppression mechanisms, signaling pathways, or tumor biology. The paper is about medication prescription patterns with no relation to the current step or user query.",
+            "level": 3,
+            "title": "Specialty-type and state-level variation in paroxetine use among older adult patients"
+        },
+        {
+            "reason": "This paper discusses prebiotic activity of lactulose in liver disease patients. While it mentions inflammation, which could be tangentially related to immune responses, it has no direct connection to THBS2, immunosuppression in tumors, or the specific molecular mechanisms being sought in the current step. The paper focuses on gut microbiome and liver disease with no clear relation to the current step or user query.",
+            "level": 3,
+            "title": "Prebiotic activity of lactulose optimizes gut metabolites and prevents systemic infection in liver disease patients"
+        },
+        {
+            "reason": "This paper discusses CCR5 deficiency and its relationship to neuronal resilience to oxidative stress and risk of vascular dementia. While it discusses a chemokine receptor (CCR5) which is involved in immune responses, it has no connection to THBS2 or tumor immunosuppression. The paper focuses on neurodegeneration and vascular dementia with no relation to the current step or user query.",
+            "level": 3,
+            "title": "CCR5 deficiency: decreased neuronal resilience to oxidative stress and increased risk of vascular dementia."
+        },
+        {
+            "reason": "This paper discusses wastewater genomic surveillance for tracking the spread of SARS-CoV-2 variants. It has no connection to THBS2, immunosuppression mechanisms, signaling pathways, or tumor biology. The paper is about epidemiological surveillance methods with no relation to the current step or user query.",
+            "level": 3,
+            "title": "Wastewater genomic surveillance tracks the spread of the SARS-CoV-2 Omicron variant across England"
+        }
+    ],
+    "pubmed":[]
+}
+2025-08-04 17:34:02,037 - __main__ - DEBUG - {'biorxiv': {'level1': 0, 'level2': 0}, 'medrxiv': {'level1': 0, 'level2': 0}, 'pubmed': {'level1': 0, 'level2': 0}}
+2025-08-04 17:34:02,040 - __main__ - INFO - Self Reflection Node is running.
+2025-08-04 17:34:27,121 - __main__ - DEBUG - {
+    "thought": "After analyzing the current logical chain, I identified that the step query for the 'Consequence' step is too specific and restrictive, which is likely why no relevant papers were found. The query 'THBS2 AND immunosuppression AND mechanism AND signaling AND tumor' combines too many specific terms, especially 'immunosuppression' which may be too narrow. THBS2 may have immune modulatory effects that aren't strictly classified as 'immunosuppression' in the literature. Additionally, requiring both 'mechanism' AND 'signaling' is redundant and overly limiting. I'll modify this query to be more inclusive while maintaining the intent of exploring THBS2's molecular mechanisms in immune regulation within tumors. The remaining logical chain is sound and follows a rational progression from basic characteristics to clinical applications, so I'll keep the other steps unchanged.",
+    "Logical_chain": "This logical chain explores THBS2's dual functions in tumor immunity by first establishing its expression patterns in tumors, understanding its basic structure and functions, examining its interactions with immune cells, identifying its molecular mechanisms in immune modulation, exploring its relationship with checkpoint molecules, assessing its correlation with immunotherapy responses, and finally evaluating its potential as a biomarker.",
+    "steps": [
+        {
+            "relationship": "Starting point",
+            "purpose": "To establish the presence and expression patterns of THBS2 in various tumor microenvironments",
+            "Verification_Point": "Expression levels and patterns of THBS2 in different cancer types and their tumor microenvironments",
+            "Step_query": "THBS2 AND tumor microenvironment AND expression AND cancer"
+        },
+        {
+            "relationship": "Foundation",
+            "purpose": "To understand the structural characteristics and basic biological functions of THBS2 that may relate to its immune functions",
+            "Verification_Point": "Molecular structure and fundamental biological functions of THBS2 with potential relevance to immune regulation",
+            "Step_query": "THBS2 AND structure AND function AND immune"
+        },
+        {
+            "relationship": "Mechanism",
+            "purpose": "To identify how THBS2 interacts with various immune cell populations in the tumor microenvironment",
+            "Verification_Point": "Direct and indirect interactions between THBS2 and immune cells (T cells, macrophages, dendritic cells, etc.)",
+            "Step_query": "THBS2 AND (T cells OR macrophages OR dendritic cells OR NK cells) AND tumor"
+        },
+        {
+            "relationship": "Consequence",
+            "purpose": "To elucidate the specific molecular mechanisms by which THBS2 contributes to immunosuppression in tumors",
+            "Verification_Point": "Molecular pathways and signaling mechanisms through which THBS2 mediates immunosuppressive effects",
+            "Step_query": "THBS2 AND (immune regulation OR immune modulation OR immunosuppression) AND (signaling OR pathway) AND tumor"
+        },
+        {
+            "relationship": "Association",
+            "purpose": "To explore the relationship between THBS2 and known immune checkpoint molecules (PD-1/PD-L1, CTLA-4, etc.)",
+            "Verification_Point": "Interactions or correlations between THBS2 expression and immune checkpoint molecules",
+            "Step_query": "THBS2 AND (PD-1 OR PD-L1 OR CTLA-4 OR immune checkpoint) AND interaction"
+        },
+        {
+            "relationship": "Clinical correlation",
+            "purpose": "To assess how THBS2 levels correlate with responses to checkpoint inhibitor therapies across cancer types",
+            "Verification_Point": "Association between THBS2 expression and clinical outcomes in patients treated with immune checkpoint inhibitors",
+            "Step_query": "THBS2 AND (checkpoint inhibitor OR immunotherapy) AND (response OR outcome OR efficacy)"
+        },
+        {
+            "relationship": "Application",
+            "purpose": "To evaluate the potential of THBS2 as a biomarker for predicting immunotherapy response or stratifying patients",
+            "Verification_Point": "Evidence supporting or refuting THBS2's utility as a predictive or prognostic biomarker for immunotherapy",
+            "Step_query": "THBS2 AND biomarker AND (immunotherapy OR checkpoint inhibitor) AND prediction"
+        }
+    ]
+}
+2025-08-04 17:34:27,128 - __main__ - INFO - Paper Search Node is running.
+2025-08-04 17:34:51,032 - __main__ - INFO - 论文搜索总执行时间: 23.9039 秒
+2025-08-04 17:34:51,040 - __main__ - INFO - Paper Filter Node is running.
+2025-08-04 17:35:49,493 - __main__ - DEBUG - {
+    "biorxiv": [
+        {
+            "reason": "This paper focuses on adaptation to heavy-metal contamination in plants and has no relation to THBS2, immune regulation, immunosuppression, signaling pathways, or tumors. It does not address the user query about THBS2's functions in tumor immunity or the current step about molecular mechanisms of THBS2-mediated immunosuppression.",
+            "level": 3,
+            "title": "Adaptation to heavy-metal contaminated environments proceeds via selection on pre-existing genetic variation"
+        },
+        {
+            "reason": "This paper discusses modeling methyl-sensitive transcription factor motifs and DNA modifications, which is unrelated to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors. It has no connection to the user query or current step.",
+            "level": 3,
+            "title": "Modeling methyl-sensitive transcription factor motifs with an expanded epigenetic alphabet"
+        },
+        {
+            "reason": "This paper focuses on biodiversity monitoring methods across taxonomic, phylogenetic, and functional diversity dimensions. It has no relation to THBS2, tumor immunity, immunosuppression mechanisms, or signaling pathways in cancer.",
+            "level": 3,
+            "title": "Optimal inventorying and monitoring of taxonomic, phylogenetic and functional diversity"
+        },
+        {
+            "reason": "This paper discusses Alzheimer's disease pathogenesis and the role of neuronal receptor PTPσ. It involves signaling pathways but is not related to THBS2, tumor immunity, or immunosuppression mechanisms in cancer.",
+            "level": 3,
+            "title": "Alzheimer-related pathogenesis is dependent on neuronal receptor PTPσ."
+        },
+        {
+            "reason": "This paper focuses on Zika virus and upstream open reading frames in viral regions. It has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in cancer.",
+            "level": 3,
+            "title": "Zika viruses encode multiple upstream open reading frames in the 5' viral region with a role in neurotropism"
+        },
+        {
+            "reason": "This paper discusses neural activity in schizophrenia and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "Aperiodic neural activity is a better predictor of schizophrenia than neural oscillations"
+        },
+        {
+            "reason": "This paper focuses on decomposing leaf mass in plants and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "Decomposing leaf mass into metabolic and structural components explains divergent patterns of trait variation within and among plant species"
+        },
+        {
+            "reason": "This paper discusses cognitive process models and group means in psychology research. It has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "When Group Means Fail: Can One Size Fit All?"
+        },
+        {
+            "reason": "This paper presents a theory of how the brain represents and computes with probabilities. It has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "A Radically New Theory of how the Brain Represents and Computes with Probabilities"
+        },
+        {
+            "reason": "This paper discusses Bayesian efficient coding in neural systems and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "Bayesian Efficient Coding"
+        }
+    ],
+    "medrxiv": [
+        {
+            "reason": "This paper focuses on clinical encounter data heterogeneity in electronic health records and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "Clinical encounter heterogeneity and methods for resolving in networked EHR data: A study from N3C and RECOVER programs"
+        },
+        {
+            "reason": "This paper discusses myocardial fibrosis and ventricular arrhythmia in ICD recipients. While it involves signaling pathways, it has no relation to THBS2, tumor immunity, or immunosuppression mechanisms in cancer.",
+            "level": 3,
+            "title": "Diffuse myocardial fibrosis associates with incident ventricular arrhythmia in implantable cardioverter defibrillator recipients"
+        },
+        {
+            "reason": "This paper focuses on quantifying non-pharmaceutical interventions for COVID-19 transmission in the Navajo Nation and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "Quantification of early nonpharmaceutical interventions 1 aimed at slowing transmission of Coronavirus Disease 2019 in the Navajo Nation and surrounding states (Arizona, Colorado, New Mexico, and Utah)"
+        },
+        {
+            "reason": "This paper discusses the impact of mass screening for SARS-CoV-2 in Greece and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "On the Impact of Mass Screening for SARS-CoV-2 through Self-Testing in Greece"
+        },
+        {
+            "reason": "This paper focuses on antimicrobial resistance dynamics in Staphylococcus aureus and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "Quantifying patient- and hospital-level antimicrobial resistance dynamics in Staphylococcus aureus from routinely collected data"
+        },
+        {
+            "reason": "This paper discusses underreporting of SARS-CoV-2 infections in Finland and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "Underreporting of SARS-CoV-2 infections during the first wave of the 2020 COVID-19 epidemic in Finland - Bayesian inference based on a series of serological surveys"
+        },
+        {
+            "reason": "This paper focuses on paroxetine use among older adult patients and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "Specialty-type and state-level variation in paroxetine use among older adult patients"
+        },
+        {
+            "reason": "This paper discusses prebiotic activity of lactulose in liver disease patients and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "Prebiotic activity of lactulose optimizes gut metabolites and prevents systemic infection in liver disease patients"
+        },
+        {
+            "reason": "This paper focuses on CCR5 deficiency and vascular dementia risk and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "CCR5 deficiency: decreased neuronal resilience to oxidative stress and increased risk of vascular dementia."
+        },
+        {
+            "reason": "This paper discusses wastewater genomic surveillance for SARS-CoV-2 variants and has no relation to THBS2, tumor immunity, immunosuppression, or signaling pathways in tumors.",
+            "level": 3,
+            "title": "Wastewater genomic surveillance tracks the spread of the SARS-CoV-2 Omicron variant across England"
+        }
+    ],
+    "pubmed": [
+        {
+            "reason": "This paper discusses cancer-associated fibroblast-derived gene signatures in prostate cancer. While it relates to tumor microenvironment and treatment response, it does not specifically focus on THBS2 or its immunosuppressive mechanisms. However, it is related to the current step as it discusses signaling pathways in the tumor microenvironment that affect radiotherapy response.",
+            "level": 2,
+            "title": "Cancer-associated fibroblast-derived gene signatures predict radiotherapeutic survival in prostate cancer patients."
+        },
+        {
+            "reason": "This paper directly addresses the user query as it discusses XBP1 regulation of tumor-associated macrophages in colorectal cancer and specifically mentions THBS1, which is closely related to THBS2. It discusses the immunosuppressive mechanisms in the tumor microenvironment, mentioning that XBP1 depletion could inhibit the expression of THBS1, which blocks 'don't eat me' recognition signals. This relates to how THBS proteins contribute to immunosuppression in tumors, which is directly relevant to the current step.",
+            "level": 2,
+            "title": "XBP1 regulates the protumoral function of tumor-associated macrophages in human colorectal cancer."
+        },
+        {
+            "reason": "This paper is directly relevant to the user query and current step as it specifically investigates THBS2's role in colorectal cancer and its inhibition of tumor immunity through the HIF1A/Lactic Acid/GPR132 pathway. It directly addresses the molecular mechanisms by which THBS2 contributes to immunosuppression in tumors, which is exactly what the current step aims to elucidate.",
+            "level": 1,
+            "title": "Systematic analysis of integrated bioinformatics to identify upregulated THBS2 expression in colorectal cancer cells inhibiting tumour immunity through the HIF1A/Lactic Acid/GPR132 pathway."
+        },
+        {
+            "reason": "This paper is directly relevant to the user query as it specifically focuses on thrombospondins (including THBS2) in colon cancer, discussing their roles in anti-tumor immunity and epithelial-mesenchymal transition. It addresses the function of THBS2 in the tumor microenvironment and its impact on immune responses, which aligns with the user's query about THBS2's dual functions in tumor immunity.",
+            "level": 1,
+            "title": "Integrating bulk RNA-seq and scRNA-seq analyses revealed the function and clinical value of thrombospondins in colon cancer."
+        },
+        {
+            "reason": "This paper is directly relevant to the user query as it identifies THBS2 as a potential predictor of patient prognosis and immunotherapy response in gastric cancer. It addresses THBS2's role as a biomarker for immunotherapy response, which is a key aspect of the user's query about THBS2's correlation with checkpoint inhibitor responses and biomarker potential.",
+            "level": 1,
+            "title": "Bioinformatics analysis identifies COL1A1, THBS2 and SPP1 as potential predictors of patient prognosis and immunotherapy response in gastric cancer."
+        },
+        {
+            "reason": "This paper is directly relevant to both the user query and current step as it specifically focuses on THBS2 acting as a bridge between tumor extracellular matrix and immune infiltration in pancreatic and stomach adenocarcinomas. It directly addresses the molecular mechanisms by which THBS2 influences tumor immunity, which aligns with the current step's focus on elucidating how THBS2 contributes to immunosuppression in tumors.",
+            "level": 1,
+            "title": "Thrombospondin-2 acts as a bridge between tumor extracellular matrix and immune infiltration in pancreatic and stomach adenocarcinomas: an integrative pan-cancer analysis."
+        },
+        {
+            "reason": "This paper discusses ceRNA networks and tumor-infiltrating immune cells in bone metastatic melanoma and mentions THBS2 as part of the analysis. It relates to the current step as it touches on the relationship between THBS2 and immune cells in the tumor microenvironment, which is relevant to understanding the molecular mechanisms of THBS2's role in tumor immunosuppression.",
+            "level": 2,
+            "title": "The Construction and Comprehensive Analysis of ceRNA Networks and Tumor-Infiltrating Immune Cells in Bone Metastatic Melanoma."
+        },
+        {
+            "reason": "This paper discusses EMT-related genes signature in microsatellite instability-high gastric cancer and mentions THBS2. It relates to the current step as it discusses immune environment and signaling pathways in cancer, which is relevant to understanding how THBS2 might contribute to immunosuppression in tumors.",
+            "level": 2,
+            "title": "Five EMT-related genes signature predicts overall survival and immune environment in microsatellite instability-high gastric cancer."
+        },
+        {
+            "reason": "This paper is relevant to the current step as it identifies THBS2 as a biomarker for a specific glucose-related colorectal cancer subtype and discusses its role in migration and invasion under high glucose conditions. While it doesn't directly focus on THBS2's immunosuppressive mechanisms, it provides insights into THBS2's function in the tumor microenvironment and mentions its potential sensitivity to immune pathway inhibitors.",
+            "level": 2,
+            "title": "Whole-transcriptome defines novel glucose metabolic subtypes in colorectal cancer."
+        },
+        {
+            "reason": "This paper directly discusses THBS1 and THBS2 in the eye, including their roles as matricellular proteins that modulate cell-environment interactions and counter angiogenesis. While it provides basic information about THBS2's functions, it doesn't specifically address THBS2's role in tumor immunity or immunosuppression mechanisms in cancer. However, it does provide foundational knowledge about THBS2's biological functions that could be relevant to understanding its role in other contexts.",
+            "level": 2,
+            "title": "Thrombospondin 1, thrombospondin 2 and the eye."
+        }
+    ]
+}
+2025-08-04 17:35:49,499 - __main__ - DEBUG - {'biorxiv': {'level1': 0, 'level2': 0}, 'medrxiv': {'level1': 0, 'level2': 0}, 'pubmed': {'level1': 4, 'level2': 6}}
+2025-08-04 17:35:49,501 - __main__ - INFO - Paper Search Node is running.
+2025-08-04 17:36:13,461 - __main__ - INFO - 论文搜索总执行时间: 23.9600 秒
+2025-08-04 17:36:13,470 - __main__ - INFO - Paper Filter Node is running.
+2025-08-04 17:37:12,920 - __main__ - DEBUG - {
+    "biorxiv": [
+        {
+            "reason": "This paper is not related to THBS2 or immune checkpoint molecules. It discusses adaptation to heavy-metal environments in plants, which has no connection to the user query about THBS2's role in tumor immunity or the current step about THBS2's relationship with immune checkpoint molecules.",
+            "level": 3,
+            "title": "Adaptation to heavy-metal contaminated environments proceeds via selection on pre-existing genetic variation"
+        },
+        {
+            "reason": "This paper focuses on modeling methyl-sensitive transcription factor motifs and has no relation to THBS2 or immune checkpoint molecules. It doesn't address tumor immunity or any aspects of the user query or current step.",
+            "level": 3,
+            "title": "Modeling methyl-sensitive transcription factor motifs with an expanded epigenetic alphabet"
+        },
+        {
+            "reason": "This paper discusses biodiversity monitoring methods and has no connection to THBS2, tumor immunity, or immune checkpoint molecules. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Optimal inventorying and monitoring of taxonomic, phylogenetic and functional diversity"
+        },
+        {
+            "reason": "This paper discusses the role of neuronal receptor PTPσ in Alzheimer's disease pathogenesis. While it discusses a receptor and signaling pathway, it has no relation to THBS2 or immune checkpoints in cancer, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "Alzheimer-related pathogenesis is dependent on neuronal receptor PTPσ."
+        },
+        {
+            "reason": "This paper focuses on Zika virus upstream open reading frames and their role in neurotropism. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "Zika viruses encode multiple upstream open reading frames in the 5' viral region with a role in neurotropism"
+        },
+        {
+            "reason": "This paper discusses neural activity patterns in schizophrenia and has no connection to THBS2, tumor immunity, or immune checkpoint molecules. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Aperiodic neural activity is a better predictor of schizophrenia than neural oscillations"
+        },
+        {
+            "reason": "This paper focuses on leaf mass components in plants and has no connection to THBS2, tumor immunity, or immune checkpoint molecules. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Decomposing leaf mass into metabolic and structural components explains divergent patterns of trait variation within and among plant species"
+        },
+        {
+            "reason": "This paper discusses cognitive process models and individual differences in memory search tasks. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "When Group Means Fail: Can One Size Fit All?"
+        },
+        {
+            "reason": "This paper presents a theory about how the brain represents and computes with probabilities. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "A Radically New Theory of how the Brain Represents and Computes with Probabilities"
+        },
+        {
+            "reason": "This paper discusses Bayesian efficient coding in the context of sensory systems. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "Bayesian Efficient Coding"
+        }
+    ],
+    "medrxiv": [
+        {
+            "reason": "This paper discusses methods for resolving clinical encounter heterogeneity in electronic health record data. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "Clinical encounter heterogeneity and methods for resolving in networked EHR data: A study from N3C and RECOVER programs"
+        },
+        {
+            "reason": "This paper focuses on diffuse myocardial fibrosis and its association with ventricular arrhythmia. While it discusses fibrosis, it's in a cardiac context and has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "Diffuse myocardial fibrosis associates with incident ventricular arrhythmia in implantable cardioverter defibrillator recipients"
+        },
+        {
+            "reason": "This paper discusses nonpharmaceutical interventions for COVID-19 in the Navajo Nation. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "Quantification of early nonpharmaceutical interventions 1 aimed at slowing transmission of Coronavirus Disease 2019 in the Navajo Nation and surrounding states (Arizona, Colorado, New Mexico, and Utah)"
+        },
+        {
+            "reason": "This paper discusses mass screening for SARS-CoV-2 through self-testing in Greece. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "On the Impact of Mass Screening for SARS-CoV-2 through Self-Testing in Greece"
+        },
+        {
+            "reason": "This paper discusses antimicrobial resistance dynamics in Staphylococcus aureus. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "Quantifying patient- and hospital-level antimicrobial resistance dynamics in Staphylococcus aureus from routinely collected data"
+        },
+        {
+            "reason": "This paper discusses underreporting of SARS-CoV-2 infections during the COVID-19 epidemic in Finland. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "Underreporting of SARS-CoV-2 infections during the first wave of the 2020 COVID-19 epidemic in Finland - Bayesian inference based on a series of serological surveys"
+        },
+        {
+            "reason": "This paper discusses paroxetine use among older adult patients. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "Specialty-type and state-level variation in paroxetine use among older adult patients"
+        },
+        {
+            "reason": "This paper discusses prebiotic activity of lactulose in liver disease patients. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "Prebiotic activity of lactulose optimizes gut metabolites and prevents systemic infection in liver disease patients"
+        },
+        {
+            "reason": "This paper discusses CCR5 deficiency and its relationship to oxidative stress and vascular dementia. While it discusses an immune-related receptor (CCR5), it has no connection to THBS2 or immune checkpoint molecules in the context of tumor immunity, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "CCR5 deficiency: decreased neuronal resilience to oxidative stress and increased risk of vascular dementia."
+        },
+        {
+            "reason": "This paper discusses wastewater genomic surveillance for tracking SARS-CoV-2 variants. It has no connection to THBS2, tumor immunity, or immune checkpoint molecules, making it irrelevant to both the user query and current step.",
+            "level": 3,
+            "title": "Wastewater genomic surveillance tracks the spread of the SARS-CoV-2 Omicron variant across England"
+        }
+    ],
+    "pubmed": [
+        {
+            "reason": "This paper is directly relevant to the user query as it specifically examines THBS2 as a potential predictor of patient prognosis and immunotherapy response in gastric cancer. It addresses THBS2's role in tumor immunity and its correlation with immunotherapy responses, which are core aspects of the user query. The paper also appears to explore THBS2's relationship with immune checkpoint inhibitor responses, which aligns with the current step's focus on interactions between THBS2 and immune checkpoint molecules.",
+            "level": 1,
+            "title": "Bioinformatics analysis identifies COL1A1, THBS2 and SPP1 as potential predictors of patient prognosis and immunotherapy response in gastric cancer."
+        },
+        {
+            "reason": "This paper is directly relevant to the user query as it specifically investigates THBS2's role in tumor immunity, focusing on its function as a bridge between tumor extracellular matrix and immune infiltration. The paper examines THBS2's association with tumor angiogenesis and its possible roles in tumor immunity, which are central aspects of the user query. Additionally, it appears to explore THBS2's relationship with the tumor immune microenvironment, which relates to the current step's focus on interactions between THBS2 and immune checkpoint molecules.",
+            "level": 1,
+            "title": "Thrombospondin-2 acts as a bridge between tumor extracellular matrix and immune infiltration in pancreatic and stomach adenocarcinomas: an integrative pan-cancer analysis."
+        },
+        {
+            "reason": "This paper is directly relevant to the user query as it identifies THBS2 as a key gene in a basement membrane-related risk model for prostate cancer and explores its relationship with tumor immune microenvironment characteristics and immune checkpoint inhibitors. The paper specifically mentions that the model grouping was closely related to immune checkpoint inhibitors, which directly aligns with the current step's focus on interactions between THBS2 and immune checkpoint molecules. It also addresses THBS2's potential role in cancer progression and its relationship with the tumor immune microenvironment, which are central aspects of the user query.",
+            "level": 1,
+            "title": "Identification of a basement membrane gene signature for predicting prognosis and estimating the tumor immune microenvironment in prostate cancer."
+        }
+    ]
+}
+2025-08-04 17:37:12,923 - __main__ - DEBUG - {'biorxiv': {'level1': 0, 'level2': 0}, 'medrxiv': {'level1': 0, 'level2': 0}, 'pubmed': {'level1': 3, 'level2': 0}}
+2025-08-04 17:37:12,925 - __main__ - INFO - Paper Search Node is running.
+2025-08-04 17:38:00,807 - __main__ - INFO - 论文搜索总执行时间: 47.8817 秒
+2025-08-04 17:38:00,812 - __main__ - INFO - Paper Filter Node is running.
+2025-08-04 17:39:42,027 - __main__ - DEBUG - {
+    "biorxiv": [
+        {
+            "reason": "This paper is not related to THBS2, immune checkpoints, immunotherapy, or any aspect of tumor immunity. It focuses on plant adaptation to heavy-metal contaminated environments through natural selection mechanisms, which is completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Adaptation to heavy-metal contaminated environments proceeds via selection on pre-existing genetic variation"
+        },
+        {
+            "reason": "This paper focuses on transcription factor binding to methylated DNA and has no connection to THBS2, checkpoint inhibitors, immunotherapy, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Modeling methyl-sensitive transcription factor motifs with an expanded epigenetic alphabet"
+        },
+        {
+            "reason": "This paper is about biodiversity monitoring methodologies and has no relation to THBS2, immune checkpoints, cancer immunotherapy, or any aspect of tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Optimal inventorying and monitoring of taxonomic, phylogenetic and functional diversity"
+        },
+        {
+            "reason": "This paper focuses on Alzheimer's disease pathogenesis and the role of neuronal receptor PTPσ. It has no connection to THBS2, cancer immunotherapy, checkpoint inhibitors, or tumor immunity, making it unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Alzheimer-related pathogenesis is dependent on neuronal receptor PTPσ."
+        },
+        {
+            "reason": "This paper is about Zika virus and its neurotropism mechanisms, with no connection to THBS2, cancer immunotherapy, immune checkpoints, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Zika viruses encode multiple upstream open reading frames in the 5' viral region with a role in neurotropism"
+        },
+        {
+            "reason": "This paper focuses on neural activity patterns in schizophrenia and has no relation to THBS2, cancer immunotherapy, checkpoint inhibitors, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Aperiodic neural activity is a better predictor of schizophrenia than neural oscillations"
+        },
+        {
+            "reason": "This paper is about leaf mass components and plant traits, with no relation to THBS2, cancer immunotherapy, checkpoint inhibitors, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Decomposing leaf mass into metabolic and structural components explains divergent patterns of trait variation within and among plant species"
+        },
+        {
+            "reason": "This paper discusses methodological issues in cognitive psychology regarding group means versus individual data, with no connection to THBS2, cancer immunotherapy, checkpoint inhibitors, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "When Group Means Fail: Can One Size Fit All?"
+        },
+        {
+            "reason": "This paper presents a theory about how the brain represents and computes with probabilities, with no relation to THBS2, cancer immunotherapy, checkpoint inhibitors, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "A Radically New Theory of how the Brain Represents and Computes with Probabilities"
+        },
+        {
+            "reason": "This paper discusses Bayesian efficient coding in neuroscience and has no connection to THBS2, cancer immunotherapy, checkpoint inhibitors, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Bayesian Efficient Coding"
+        }
+    ],
+    "medrxiv": [
+        {
+            "reason": "This paper focuses on methodology for handling electronic health record data heterogeneity and has no connection to THBS2, checkpoint inhibitors, immunotherapy outcomes, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Clinical encounter heterogeneity and methods for resolving in networked EHR data: A study from N3C and RECOVER programs"
+        },
+        {
+            "reason": "While this paper focuses on ICD therapy outcomes, it does not address THBS2, checkpoint inhibitors, immunotherapy, or tumor immunity. The study examines diffuse myocardial fibrosis as a predictor of ventricular arrhythmia, which is unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Diffuse myocardial fibrosis associates with incident ventricular arrhythmia in implantable cardioverter defibrillator recipients"
+        },
+        {
+            "reason": "This paper focuses on evaluating non-pharmaceutical interventions to slow COVID-19 transmission in the Navajo Nation and surrounding states. It has no connection to THBS2, checkpoint inhibitors, immunotherapy outcomes, or tumor immunity, making it unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Quantification of early nonpharmaceutical interventions 1 aimed at slowing transmission of Coronavirus Disease 2019 in the Navajo Nation and surrounding states (Arizona, Colorado, New Mexico, and Utah)"
+        },
+        {
+            "reason": "This paper evaluates the impact of COVID-19 self-testing interventions in Greece, with no connection to THBS2, checkpoint inhibitors, immunotherapy outcomes, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "On the Impact of Mass Screening for SARS-CoV-2 through Self-Testing in Greece"
+        },
+        {
+            "reason": "This paper addresses antimicrobial resistance dynamics in Staphylococcus aureus and has no connection to THBS2, checkpoint inhibitors, immunotherapy outcomes, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Quantifying patient- and hospital-level antimicrobial resistance dynamics in Staphylococcus aureus from routinely collected data"
+        },
+        {
+            "reason": "This paper focuses on SARS-CoV-2 infection underreporting during the first wave of the COVID-19 pandemic in Finland, with no connection to THBS2, checkpoint inhibitors, immunotherapy outcomes, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Underreporting of SARS-CoV-2 infections during the first wave of the 2020 COVID-19 epidemic in Finland - Bayesian inference based on a series of serological surveys"
+        },
+        {
+            "reason": "This paper examines paroxetine prescription patterns among older adults and has no connection to THBS2, checkpoint inhibitors, immunotherapy outcomes, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Specialty-type and state-level variation in paroxetine use among older adult patients"
+        },
+        {
+            "reason": "This paper focuses on the prebiotic activity of lactulose in liver disease patients to prevent systemic infections, with no connection to THBS2, checkpoint inhibitors, immunotherapy outcomes, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Prebiotic activity of lactulose optimizes gut metabolites and prevents systemic infection in liver disease patients"
+        },
+        {
+            "reason": "This paper examines the relationship between CCR5 deficiency and risk of vascular dementia, with no connection to THBS2, checkpoint inhibitors, immunotherapy outcomes, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "CCR5 deficiency: decreased neuronal resilience to oxidative stress and increased risk of vascular dementia."
+        },
+        {
+            "reason": "This paper focuses on wastewater-based epidemiology for tracking SARS-CoV-2 variants, with no connection to THBS2, checkpoint inhibitors, immunotherapy outcomes, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "Wastewater genomic surveillance tracks the spread of the SARS-CoV-2 Omicron variant across England"
+        }
+    ],
+    "pubmed": [
+        {
+            "reason": "This paper discusses factors governing response to immune checkpoint blockade in gastric cancer peritoneal metastasis, specifically mentioning the crosstalk between cancer-associated fibroblasts (CAFs) and macrophages in the tumor microenvironment. While it doesn't specifically mention THBS2, it directly addresses immune checkpoint blockade therapy responses, which is highly relevant to the current step that focuses on assessing how expression levels correlate with responses to checkpoint inhibitor therapies.",
+            "level": 2,
+            "title": "CAF-macrophage crosstalk in tumour microenvironments governs the response to immune checkpoint blockade in gastric cancer peritoneal metastases."
+        },
+        {
+            "reason": "This paper is directly focused on THBS2 in the context of cancer, specifically identifying THBS2+ cancer-associated fibroblasts as key orchestrators in lung adenocarcinoma. The paper examines THBS2's role in tumor aggressiveness and its relationship with immune cells, showing that THBS2-high tumors are characterized by suppressed antitumor immunity. It also specifically notes that 'high THBS2 expression predicted poor response to immunotherapies', which directly addresses the current step regarding how THBS2 levels correlate with responses to checkpoint inhibitor therapies. This makes it closely aligned with the user's query about THBS2's immunosuppressive mechanisms and correlation with checkpoint inhibitor responses.",
+            "level": 1,
+            "title": "Multi-scale integrative analyses identify THBS2+ cancer-associated fibroblasts as a key orchestrator promoting aggressiveness in early-stage lung adenocarcinoma."
+        },
+        {
+            "reason": "This paper focuses specifically on THBS2 in colorectal cancer and directly addresses its role in inhibiting tumor immunity through the HIF1A/Lactic Acid/GPR132 pathway. The focus on THBS2's immunosuppressive mechanisms in cancer is directly relevant to the user's query about THBS2's dual functions in tumor immunity and its immunosuppressive mechanisms. The study provides insight into the molecular pathways through which THBS2 affects tumor immunity.",
+            "level": 1,
+            "title": "Systematic analysis of integrated bioinformatics to identify upregulated THBS2 expression in colorectal cancer cells inhibiting tumour immunity through the HIF1A/Lactic Acid/GPR132 pathway."
+        },
+        {
+            "reason": "This paper specifically examines THBS2 along with COL1A1 and SPP1 as potential predictors of both patient prognosis and immunotherapy response in gastric cancer. The explicit focus on THBS2 and its correlation with immunotherapy response directly addresses the current step's objective of assessing how THBS2 levels correlate with responses to immunotherapy. It also aligns with the user's query about THBS2's correlation with checkpoint inhibitor responses and its biomarker potential.",
+            "level": 1,
+            "title": "Bioinformatics analysis identifies COL1A1, THBS2 and SPP1 as potential predictors of patient prognosis and immunotherapy response in gastric cancer."
+        },
+        {
+            "reason": "This paper focuses on the role of corticotropin-releasing hormone in enhancing hematopoietic stem cell engraftment and mentions THBS2 as part of the molecular pathway involved. While it discusses THBS2, it's in the context of stem cell transplantation rather than tumor immunity or checkpoint inhibitor responses. The paper doesn't address the relationship between THBS2 and immunotherapy responses or its role in tumor immunity, making it only tangentially related to the user query.",
+            "level": 3,
+            "title": "Enhanced engraftment of human haematopoietic stem cells via mechanical remodelling mediated by the corticotropin-releasing hormone."
+        },
+        {
+            "reason": "This paper examines butyrate metabolism in colorectal cancer and identifies THBS2 as one of four target genes that might serve as markers or targets for treating colorectal cancer patients. While THBS2 is mentioned, the paper doesn't focus on its role in tumor immunity or correlation with checkpoint inhibitor responses. There is brief mention that the model could help forecast response to immunotherapy, but no specific details about THBS2's relationship with immunotherapy outcomes are provided, making it only somewhat related to the current step.",
+            "level": 2,
+            "title": "Characterization of butyrate-metabolism in colorectal cancer to guide clinical treatment."
+        },
+        {
+            "reason": "This paper focuses on CXCL14+ cancer-associated fibroblasts in lung adenocarcinoma and their role in tumor metastasis and resistance to EGFR-TKIs. While it deals with cancer-associated fibroblasts and therapy resistance, it doesn't specifically focus on THBS2 or immune checkpoint inhibitors. The paper addresses resistance to tyrosine kinase inhibitors rather than immunotherapy, making it not directly relevant to either the user query or current step.",
+            "level": 3,
+            "title": "Transitional CXCL14+ cancer-associated fibroblasts enhance tumour metastasis and confer resistance to EGFR-TKIs, revealing therapeutic vulnerability to filgotinib in lung adenocarcinoma."
+        },
+        {
+            "reason": "This paper identifies key genes related to tumor microenvironment infiltration in gastric adenocarcinoma. While the abstract mentions immune-related molecular mechanisms and response to immunotherapy, it doesn't specifically highlight THBS2 or its correlation with checkpoint inhibitor responses. The paper appears to be a broader analysis of various genes rather than focusing on THBS2 specifically, making it somewhat related to the current step but not directly addressing the user query.",
+            "level": 2,
+            "title": "Identification of Key Genes Associated with Tumor Microenvironment Infiltration and Survival in Gastric Adenocarcinoma via Bioinformatics Analysis."
+        },
+        {
+            "reason": "This paper is a pilot study of a gluten-free diet for primary sclerosing cholangitis and associated colitis, with no mention of THBS2, checkpoint inhibitors, immunotherapy, or tumor immunity. It's completely unrelated to both the user query and current step.",
+            "level": 3,
+            "title": "A prospective pilot study of a gluten-free diet for primary sclerosing cholangitis and associated colitis."
+        },
+        {
+            "reason": "This paper identifies potential therapeutic targets in gastric cancer through inflammation and protein-protein interaction networks. It mentions THBS2 as one of 12 hub genes with enhanced expression in stem cells, and while it discusses the inflammatory-immune axis in gastric cancer, it doesn't specifically address THBS2's correlation with checkpoint inhibitor responses. The paper is more focused on identifying biomarkers for precision immunotherapies in general rather than specifically examining THBS2's role in immunotherapy response, making it somewhat related to the current step.",
+            "level": 2,
+            "title": "Revealing Potential Therapeutic Targets in Gastric Cancer through Inflammation and Protein-Protein Interaction Hub Networks."
+        }
+    ]
+}
+2025-08-04 17:39:42,033 - __main__ - DEBUG - {'biorxiv': {'level1': 0, 'level2': 0}, 'medrxiv': {'level1': 0, 'level2': 0}, 'pubmed': {'level1': 2, 'level2': 4}}
+2025-08-04 17:39:42,034 - __main__ - INFO - Paper Search Node is running.
+2025-08-04 17:39:54,208 - __main__ - INFO - 论文搜索总执行时间: 12.1746 秒
+2025-08-04 17:39:54,212 - __main__ - INFO - Paper Filter Node is running.
+2025-08-04 17:41:03,067 - __main__ - DEBUG - {
+    "biorxiv":[
+        {
+            "reason": "This paper is not related to THBS2, immunotherapy, biomarkers, or any aspect of tumor immunity. It focuses on adaptation to heavy-metal contaminated environments in plants.",
+            "level": 3,
+            "title": "Adaptation to heavy-metal contaminated environments proceeds via selection on pre-existing genetic variation"
+        },
+        {
+            "reason": "This paper focuses on transcription factor binding to modified DNA and has no relation to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Modeling methyl-sensitive transcription factor motifs with an expanded epigenetic alphabet"
+        },
+        {
+            "reason": "This paper discusses biodiversity monitoring methods and is completely unrelated to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Optimal inventorying and monitoring of taxonomic, phylogenetic and functional diversity"
+        },
+        {
+            "reason": "This paper focuses on Alzheimer's disease pathogenesis and neuronal receptor PTPσ, with no relation to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Alzheimer-related pathogenesis is dependent on neuronal receptor PTPσ."
+        },
+        {
+            "reason": "This paper discusses Zika virus and its upstream open reading frames with no connection to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Zika viruses encode multiple upstream open reading frames in the 5' viral region with a role in neurotropism"
+        },
+        {
+            "reason": "This paper discusses neural activity patterns in schizophrenia and has no relation to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Aperiodic neural activity is a better predictor of schizophrenia than neural oscillations"
+        },
+        {
+            "reason": "This paper focuses on leaf mass components in plants and is completely unrelated to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Decomposing leaf mass into metabolic and structural components explains divergent patterns of trait variation within and among plant species"
+        },
+        {
+            "reason": "This paper discusses cognitive process models and individual differences in memory search, with no relation to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "When Group Means Fail: Can One Size Fit All?"
+        },
+        {
+            "reason": "This paper presents a theory about how the brain represents probabilities and has no connection to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "A Radically New Theory of how the Brain Represents and Computes with Probabilities"
+        },
+        {
+            "reason": "This paper discusses Bayesian efficient coding in sensory systems and has no relation to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Bayesian Efficient Coding"
+        }
+    ],
+    "medrxiv":[
+        {
+            "reason": "This paper focuses on clinical encounter data heterogeneity in electronic health records and has no relation to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Clinical encounter heterogeneity and methods for resolving in networked EHR data: A study from N3C and RECOVER programs"
+        },
+        {
+            "reason": "This paper discusses myocardial fibrosis and ventricular arrhythmia in ICD recipients, with no connection to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Diffuse myocardial fibrosis associates with incident ventricular arrhythmia in implantable cardioverter defibrillator recipients"
+        },
+        {
+            "reason": "This paper focuses on COVID-19 transmission in the Navajo Nation and surrounding states, with no relation to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Quantification of early nonpharmaceutical interventions 1 aimed at slowing transmission of Coronavirus Disease 2019 in the Navajo Nation and surrounding states (Arizona, Colorado, New Mexico, and Utah)"
+        },
+        {
+            "reason": "This paper discusses COVID-19 self-testing in Greece and has no connection to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "On the Impact of Mass Screening for SARS-CoV-2 through Self-Testing in Greece"
+        },
+        {
+            "reason": "This paper focuses on antimicrobial resistance in Staphylococcus aureus and has no relation to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Quantifying patient- and hospital-level antimicrobial resistance dynamics in Staphylococcus aureus from routinely collected data"
+        },
+        {
+            "reason": "This paper discusses paroxetine use among older adults and has no connection to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Specialty-type and state-level variation in paroxetine use among older adult patients"
+        },
+        {
+            "reason": "This paper focuses on lactulose and gut microbiome in liver disease patients, with no relation to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Prebiotic activity of lactulose optimizes gut metabolites and prevents systemic infection in liver disease patients"
+        },
+        {
+            "reason": "This paper discusses CCR5 deficiency and vascular dementia risk, with no connection to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "CCR5 deficiency: decreased neuronal resilience to oxidative stress and increased risk of vascular dementia."
+        },
+        {
+            "reason": "This paper focuses on SARS-CoV-2 variant tracking in wastewater and has no relation to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Wastewater genomic surveillance tracks the spread of the SARS-CoV-2 Omicron variant across England"
+        },
+        {
+            "reason": "This paper discusses SARS-CoV-2 infections in Finland and has no connection to THBS2, tumor immunity, or immunotherapy biomarkers.",
+            "level": 3,
+            "title": "Underreporting of SARS-CoV-2 infections during the first wave of the 2020 COVID-19 epidemic in Finland - Bayesian inference based on a series of serological surveys"
+        }
+    ],
+    "pubmed":[
+        {
+            "reason": "This paper is directly related to the User_Query as it specifically focuses on THBS2+ cancer-associated fibroblasts in lung adenocarcinoma, their role in promoting aggressiveness, and their impact on immune responses. The paper discusses how THBS2 is associated with suppressed antitumor immunity, interactions with immune cells like B and CD8+ T lymphocytes and macrophages, and predicts poor response to immunotherapies - all key aspects of the User_Query about THBS2's dual functions in tumor immunity and correlation with checkpoint inhibitor responses.",
+            "level": 1,
+            "title": "Multi-scale integrative analyses identify THBS2<sup>+</sup> cancer-associated fibroblasts as a key orchestrator promoting aggressiveness in early-stage lung adenocarcinoma."
+        },
+        {
+            "reason": "This paper relates to the current step about biomarker potential as it discusses a risk stratification score incorporating proteomics-derived serum markers for diagnostic evaluation. While it doesn't specifically mention THBS2, it addresses the development of biomarkers for diagnostic evaluation, which aligns with the current step's purpose of evaluating biomarker potential for predicting responses.",
+            "level": 2,
+            "title": "Serum protein risk stratification score for diagnostic evaluation of metabolic dysfunction-associated steatohepatitis."
+        },
+        {
+            "reason": "This paper discusses TGF-β signaling pathway components and their influence on tumor development, particularly in lower-grade glioma. While it mentions immune evasion and anti-tumor response, it doesn't specifically address THBS2 or its role in immunotherapy prediction. However, it does relate to the current step as it discusses prognostic significance of immune-related genes and potential for predicting immunological characteristics.",
+            "level": 2,
+            "title": "TGF-β Score based on <i>Silico</i> Analysis can Robustly Predict Prognosis and Immunological Characteristics in Lower-grade Glioma: The Evidence from Multicenter Studies."
+        },
+        {
+            "reason": "This paper mentions thrombospondin 2 (THBS2) as one of the proteins identified in exosomes isolated from human malignant pleural effusions. While it doesn't focus specifically on THBS2's role in tumor immunity or as a biomarker for immunotherapy response, it does identify THBS2 in the context of cancer-related exosomes, which has some relevance to the User_Query's interest in THBS2's functions in the tumor microenvironment.",
+            "level": 2,
+            "title": "Proteomic analysis of exosomes isolated from human malignant pleural effusions."
+        }
+    ]
+}
+2025-08-04 17:41:03,069 - __main__ - DEBUG - {'biorxiv': {'level1': 0, 'level2': 0}, 'medrxiv': {'level1': 0, 'level2': 0}, 'pubmed': {'level1': 1, 'level2': 3}}
+2025-08-04 17:41:03,071 - __main__ - INFO - Paper Search Node is running.
+2025-08-04 17:41:03,073 - __main__ - INFO - Paper Rerank is running.
+2025-08-04 17:41:03,073 - __main__ - DEBUG - {'biorxiv': [{'Title': 'Adaptation to heavy-metal contaminated environments proceeds via selection on pre-existing genetic variation', 'Abstract': 'Anthropogenic environmental changes create evolutionary pressures on populations to adapt to novel stresses. It is as yet unclear, when populations respond to these selective pressures, the extent to which this results in convergent genetic evolution and whether convergence is due to independent mutations or shared ancestral variation. We address these questions using a classic example of adaptation by natural selection by investigating the rapid colonization of the plant species Mimulus guttatus to copper contaminated soils. We use field-based reciprocal transplant experiments to demonstrate that mine alleles at a major copper tolerance locus, Tol1, are strongly selected in the mine environment. We assemble the genome of a mine adapted genotype and identify regions of this genome in tight genetic linkage to Tol1. We discover a set of a multicopper oxidase genes that are genetically linked to Tol1 and exhibit large differences in expression between tolerant and non-tolerant genotypes. We overexpressed this gene in M. guttatus and A. thaliana and found the introduced gene contributes to enhanced copper tolerance. We identify convergent adaptation loci that are additional to Tol1 by measuring genome-wide differences in allele frequency between pairs of mine and off-mine populations and narrow these regions to specific candidate genes using differences in protein sequence and gene expression. Furthermore, patterns of genetic variation at the two most differentiated candidate loci are consistent with selection acting upon alleles that predates the existence of the copper mine habitat. These results suggest that adaptation to the mine habitat occurred via selection on ancestral variation, rather than independent de novo mutations or migration between populations.', 'URL': 'https://www.biorxiv.org/content/10.1101/029900v3', 'ArticleDate': '2024-12-16', 'DOI': '10.1101/029900'}, {'Title': 'Modeling methyl-sensitive transcription factor motifs with an expanded epigenetic alphabet', 'Abstract': 'Transcription factors bind DNA in specific sequence contexts. In addition to distinguishing one nucleobase from another, some transcription factors can distinguish between unmodified and modified bases. Current models of transcription factor binding tend not take DNA modifications into account, while the recent few that do often have limitations. This makes a comprehensive and accurate profiling of transcription factor affinities difficult.\n\nHere, we developed methods to identify transcription factor binding sites in modified DNA. Our models expand the standard A/C/G/T DNA alphabet to include cytosine modifications. We developed Cytomod to create modified genomic sequences and enhanced the Multiple EM for Motif Elicitation (MEME) Suite by adding the capacity to handle custom alphabets. We adapted the well-established position weight matrix (PWM) model of transcription factor binding affinity to this expanded DNA alphabet.\n\nUsing these methods, we identified modification-sensitive transcription factor binding motifs. We confirmed established binding preferences, such as the preference of ZFP57 and C/EBP{beta} for methylated motifs and the preference of c-Myc for unmethylated E-box motifs. Using known binding preferences to tune model parameters, we discovered novel modified motifs for a wide array of transcription factors. Finally, we validated predicted binding preferences of OCT4 using cleavage under targets and release using nuclease (CUT&RUN) experiments across conventional, methylation-, and hydroxymethylation-enriched sequences. Our approach readily extends to other DNA modifications. As more genome-wide single-base resolution modification data becomes available, we expect that our method will yield insights into altered transcription factor binding affinities across many different modifications.', 'URL': 'https://www.biorxiv.org/content/10.1101/043794v3', 'ArticleDate': '2023-02-28', 'DOI': '10.1101/043794'}, {'Title': 'Optimal inventorying and monitoring of taxonomic, phylogenetic and functional diversity', 'Abstract': 'Comparable data is essential to understand biodiversity patterns. While inventorying requires comprehensive sampling, monitoring focuses on as few components as possible to detect changes. Quantifying species, their evolutionary history, and the way they interact claims for studying changes in taxonomic (TD), phylogenetic (PD) and functional diversity (FD). Here we propose a method for the optimization of sampling protocols for inventorying and monitoring diversity across these three diversity dimensions taking sampling costs into account.\n\nWe used Iberian spiders, Amazonian bats and Atlantic Forest mammals as three case-studies. The optimal combination of methods for inventorying and monitoring required optimizing the accumulation curve of -diversity and minimizing the difference between sampled and estimated {beta}-diversity (bias), respectively.\n\nFor Iberian spiders, the optimal combination for TD, PD and FD allowed sampling at least 50% of estimated diversity with 24 person-hours of fieldwork. The optimal combination of six person-hours allowed reaching a bias below 8% for all dimensions. For Amazonian bats, surveying all the 12 sites with mist-nets and 0 or 1 acoustic recorders was the optimal combination for almost all diversity types, resulting in >89% of the diversity and <10% bias with roughly a third of the cost. Only for phylogenetic -diversity, the best solution was less clear and involved surveying both with mist nets and acoustic recorders. For Atlantic Forest mammals the optimal combination to assess all types of - and {beta}-diversity was to walk all the 10 transects and no camera traps, which returned >95% of the diversity and <5% bias with a third of the costs.\n\nThe widespread use of optimized and standardized sampling protocols and regular repetition in time will radically improve global inventory and monitoring of biodiversity. We strongly advocate for the global adoption of sampling protocols for both inventory and monitoring of taxonomic, phylogenetic and functional diversity.', 'URL': 'https://www.biorxiv.org/content/10.1101/060400v2', 'ArticleDate': '2024-03-01', 'DOI': '10.1101/060400'}, {'Title': 'Alzheimer-related pathogenesis is dependent on neuronal receptor PTPσ.', 'Abstract': 'Due to limited understanding of disease mechanisms and the lack of molecular targets, translational research for Alzheimer disease has not been fruitful hitherto. Here we report findings that indicate neuronal receptor phosphatase PTP{sigma} as a potential therapeutic target for this dementia. In two TgAPP mouse models, a spectrum of Alzheimer-related pathologies, including aged-induced progression of {beta}-amyloidosis, Tau aggregation, neuroinflammation, synaptic loss, as well as behavioral deficits, all show unambiguous dependency on PTP{sigma}. APP amyloidogenic metabolites diminish upon PTP{sigma} genetic depletion or pharmacological inhibition. Binding to APP in the brain, PTP{sigma} regulates APP proteolytic metabolism via its phosphatase activity, likely through downstream signaling that modulates APP membrane localization and affinity to the {beta}-secretase, in a specific manner that does not broadly affect {beta}- and {gamma}-secretase processing of other major substrates. Together, these findings unveil a gatekeeping role of PTP{sigma} upstream in Alzheimer-like pathogenic pathway.', 'URL': 'https://www.biorxiv.org/content/10.1101/079806v5', 'ArticleDate': '2024-04-04', 'DOI': '10.1101/079806'}, {'Title': "Zika viruses encode multiple upstream open reading frames in the 5' viral region with a role in neurotropism", 'Abstract': "Zika virus (ZIKV) is an emerging mosquito-borne flavivirus recently associated with congenital diseases and neurological complications. As for all flaviviruses, the ZIKV RNA genome is expected to encode a single polyprotein with all the enzymatic activities required for viral replication. Here, we report the discovery of multiple non-canonical open reading frames (ORFs) identified by ribosome profiling. In both mammalian and insect cells infected with Asian/American and African ZIKV strains, we observed translation of previously unrecognised upstream ORFs (uORFs) in the 5' region. In the Asian/American ZIKV lineage, ribosomes translated uORF1 and uORF2 that initiated from non-AUG start codons, whereas in the African ZIKV lineage, these two uORFs were fused into a single uORF (African uORF). Using a reverse genetics system, we examined the impact on ZIKV fitness of the expression of single or dual uORFs by analysing a panel of mutant viruses. We found that expression of the African uORF, and more significantly, the Asian/American uORF1, modulated virus growth and tropism in human cortical neurons and 3D organoid tissue, indicating that these novel uORFs contribute to ZIKV neurotropism. Although ZIKV uORFs are expressed in mosquito cells, they did not have a detectable effect on transmission by the mosquito vector in vivo. Our discovery of ZIKV uORFs sheds new light on ZIKV-induced neuropathogenesis and raises the question of their existence in other neurotropic flaviviruses.", 'URL': 'https://www.biorxiv.org/content/10.1101/112904v2', 'ArticleDate': '2023-04-20', 'DOI': '10.1101/112904'}, {'Title': 'Aperiodic neural activity is a better predictor of schizophrenia than neural oscillations', 'Abstract': 'Diagnosis and symptom severity in schizophrenia are associated with irregularities across neural oscillatory frequency bands, including theta, alpha, beta, and gamma. However, electroencephalographic signals consist of both periodic and aperiodic activity characterized by the (1/fX) shape in the power spectrum. In this paper we investigated oscillatory and aperiodic activity differences between patients with schizophrenia and healthy controls during a target detection task. Separation into periodic and aperiodic components revealed that the steepness of the power spectrum better predicted group status than traditional band-limited oscillatory power in a classification analysis. Aperiodic activity also outperformed the predictions made using participants behavioral responses. Additionally, the differences in aperiodic activity were highly consistent across all electrodes. In sum, compared to oscillations the aperiodic activity appears to be a more accurate and more robust way to differentiate patients with schizophrenia from healthy controls.\n\nSignificance statementUnderstanding the neurobiological origins of schizophrenia and identifying reliable and consistent biomarkers are of critical importance to improving treatment of that disease. Numerous studies have reported disruptions to neural oscillations in patients with schizophrenia. This has, in part, led to schizophrenia being characterized as a disease of disrupted neural coordination, reflected by changes in frequency band power. We report however that changes in the aperiodic signal can also predict clinical status. Unlike band-limited power though, aperiodic activity predicts status better than participants own behavioral performance and acts as a consistent predictor across all electrodes. Alterations in the aperiodic signal are consistent with well-established inhibitory neuron dysfunctions associated with schizophrenia, allowing for a direct link between noninvasive EEG and chronic, widespread, neurobiological deficits.', 'URL': 'https://www.biorxiv.org/content/10.1101/113449v6', 'ArticleDate': '2023-03-07', 'DOI': '10.1101/113449'}, {'Title': 'Decomposing leaf mass into metabolic and structural components explains divergent patterns of trait variation within and among plant species', 'Abstract': 'O_LIAcross the global flora, interspecific variation in photosynthetic and metabolic rates depends more strongly on leaf area than leaf mass. In contrast, intraspecific variation in these rates is strongly mass-dependent. These contrasting patterns suggest that the causes of variation in leaf mass per area (LMA) may be fundamentally different within vs. among species.\nC_LIO_LIWe developed a statistical modeling framework to decompose LMA into two conceptual components - metabolic LMAm (which determines photosynthetic capacity and dark respiration) and structural LMAs (which determines leaf toughness and potential leaf lifespan) - using leaf trait data from tropical forests in Panama and a global leaf-trait database.\nC_LIO_LIDecomposing LMA into LMAm and LMAs improves predictions of leaf trait variation (photosynthesis, respiration, and lifespan). We show that strong area-dependence of metabolic traits across species can result from multiple factors, including high LMAs variance and/or a slow increase in photosynthetic capacity with increasing LMAm. In contrast, strong mass-dependence of metabolic traits within species results from LMAm increasing from sunny to shady conditions. LMAm and LMAs were nearly independent of each other in both global and Panama datasets.\nC_LIO_LISynthesis: Our results suggest that leaf functional variation is multi-dimensional and that biogeochemical models should treat metabolic and structural leaf components separately.\nC_LI', 'URL': 'https://www.biorxiv.org/content/10.1101/116855v3', 'ArticleDate': '2023-04-13', 'DOI': '10.1101/116855'}, {'Title': 'When Group Means Fail: Can One Size Fit All?', 'Abstract': 'The present study examined whether a cognitive process model that is inferred based on group data holds, and is meaningful, at the level of the individual person. Investigation of this issue is tantamount to questioning that the same set and configuration of cognitive processes is present within all individuals, a usually untested assumption in standard group-based experiments. Search from memory as assessed with the Sternberg memory scanning paradigm is among the most widely studied phenomena in cognitive psychology. According to the original memory scanning model, search is serial and exhaustive. Here we critically examined the validity of this model across individuals and practice. 32 younger adults completed 1488 trials of the Sternberg task distributed over eight sessions. In the first session, group data followed the pattern predicted by the original model, replicating earlier findings. However, data from the first session were not sufficiently reliable for identifying whether each individual complied with the serial exhaustive search model. In sessions six to eight, when participants performed near asymptotic levels of performance, between-person differences were reliable, group data deviated substantially from the original memory search model, and the model fit only 13 of the 32 participants data. Our findings challenge the proposition that one general memory search process exists within a group of healthy younger adults, and questions the testability of this proposition at the individual level in single-session experiments. Implications for cognitive psychology and cognitive neuroscience are discussed with reference to earlier work emphasizing the explicit consideration of potentially existent individual differences.', 'URL': 'https://www.biorxiv.org/content/10.1101/126490v2', 'ArticleDate': '2025-02-12', 'DOI': '10.1101/126490'}, {'Title': 'A Radically New Theory of how the Brain Represents and Computes with Probabilities', 'Abstract': 'Many believe that the brain implements probabilistic reasoning and that it represents information via some form of population (distributed) code. Most prior probabilistic population coding (PPC) theories share basic properties: 1) continuous-valued units; 2) fully/densely distributed codes; 3) graded synap-ses; 4) rate coding; 5) units have innate low-complexity, usually unimodal, tuning functions (TFs); and 6) units are intrinsically noisy and noise is generally considered harmful. I describe a radically different theory that assumes: 1) binary units; 2) sparse distributed codes (SDC); 3) functionally binary synapses; 4) a novel, atemporal, combinatorial spike code; 5) units initially have flat TFs (all weights zero); and 6) noise is a resource generated/used, normatively, to cause similar inputs to map to similar codes. The theory, Sparsey, was introduced 25+ years ago as: a) an explanation of the physical/computational relationship of episodic and semantic memory for the spatiotemporal (sequential) pattern domain; and b) a canonical, mesoscale cortical probabilistic circuit/algorithm possessing fixed-time, unsupervised, single-trial, non-optimization-based, unsupervised learning and fixed-time best-match (approximate) retrieval; but was not described as an alternative to PPC-type theories. Here, we show that: a) the active SDC in a Sparsey coding field (CF) simultaneously represents not only the likelihood of the single most likely input but the likelihoods of all hypotheses stored in the CF; and b) the whole explicit distribution can be sent, e.g., to a downstream CF, via a set of simultaneous single spikes from the neurons comprising the active SDC.', 'URL': 'https://www.biorxiv.org/content/10.1101/162941v2', 'ArticleDate': '2023-07-04', 'DOI': '10.1101/162941'}, {'Title': 'Bayesian Efficient Coding', 'Abstract': 'The efficient coding hypothesis, which proposes that neurons are optimized to maximize information about the environment, has provided a guiding theoretical framework for sensory and systems neuroscience. More recently, a theory known as the Bayesian Brain hypothesis has focused on the brains ability to integrate sensory and prior sources of information in order to perform Bayesian inference. However, there is as yet no comprehensive theory connecting these two theoretical frameworks. We bridge this gap by formalizing a Bayesian theory of efficient coding. We define Bayesian efficient codes in terms of four basic ingredients: (1) a stimulus prior distribution; (2) an encoding model; (3) a capacity constraint, specifying a neural resource limit; and (4) a loss function, quantifying the desirability or undesirability of various posterior distributions. Classic efficient codes can be seen as a special case in which the loss function is the posterior entropy, leading to a code that maximizes mutual information, but alternate loss functions give solutions that differ dramatically from information-maximizing codes. In particular, we show that decorrelation of sensory inputs, which is optimal under classic efficient codes in low-noise settings, can be disadvantageous for loss functions that penalize large errors. Bayesian efficient coding therefore enlarges the family of normatively optimal codes and provides a more general framework for understanding the design principles of sensory systems. We examine Bayesian efficient codes for linear receptive fields and nonlinear input-output functions, and show that our theory invites reinterpretation of Laughlins seminal analysis of efficient coding in the blowfly visual system.', 'URL': 'https://www.biorxiv.org/content/10.1101/178418v4', 'ArticleDate': '2024-03-29', 'DOI': '10.1101/178418'}], 'medrxiv': [{'Title': 'Clinical encounter heterogeneity and methods for resolving in networked EHR data: A study from N3C and RECOVER programs', 'Abstract': 'OBJECTIVEClinical encounter data are heterogeneous and vary greatly from institution to institution. These problems of variance affect interpretability and usability of clinical encounter data for analysis. These problems are magnified when multi-site electronic health record data are networked together. This paper presents a novel, generalizable method for resolving encounter heterogeneity for analysis by combining related atomic encounters into composite  macrovisits.\n\nMATERIALS AND METHODSEncounters were composed of data from 75 partner sites harmonized to a common data model as part of the NIH Researching COVID to Enhance Recovery Initiative, a project of the National Covid Cohort Collaborative. Summary statistics were computed for overall and site-level data to assess issues and identify modifications. Two algorithms were developed to refine atomic encounters into cleaner, analyzable longitudinal clinical visits.\n\nRESULTSAtomic inpatient encounters data were found to be widely disparate between sites in terms of length-of-stay and numbers of OMOP CDM measurements per encounter. After aggregating encounters to macrovisits, length-of-stay (LOS) and measurement variance decreased. A subsequent algorithm to identify hospitalized macrovisits further reduced data variability.\n\nDISCUSSIONEncounters are a complex and heterogeneous component of EHR data and native data issues are not addressed by existing methods. These types of complex and poorly studied issues contribute to the difficulty of deriving value from EHR data, and these types of foundational, large-scale explorations and developments are necessary to realize the full potential of modern real world data.\n\nCONCLUSIONThis paper presents method developments to manipulate and resolve EHR encounter data issues in a generalizable way as a foundation for future research and analysis.', 'URL': 'https://www.medrxiv.org/content/10.1101/2022.10.14.22281106v2', 'ArticleDate': '2023-02-16', 'DOI': '10.1101/2022.10.14.22281106'}, {'Title': 'Diffuse myocardial fibrosis associates with incident ventricular arrhythmia in implantable cardioverter defibrillator recipients', 'Abstract': 'BackgroundDiffuse myocardial fibrosis (DMF) quantified by extracellular volume (ECV) may represent a vulnerable phenotype and associate with life threatening ventricular arrhythmias more than focal myocardial fibrosis. This principle remains important because 1) risk stratification for implantable cardioverter defibrillators (ICD) remains challenging, and 2) DMF may respond to current or emerging medical therapies (reversible substrate).\n\nObjectivesTo evaluate the association between quantified by ECV in myocardium without focal fibrosis by late gadolinium enhancement (LGE) with time from ICD implantation to 1) appropriate shock, or 2) shock or anti-tachycardia pacing.\n\nMethodsAmong patients referred for cardiovascular magnetic resonance (CMR) without congenital disease, hypertrophic cardiomyopathy, or amyloidosis who received ICDs (n=215), we used Cox regression to associate ECV with incident ICD therapy.\n\nResultsAfter a median of 2.9 (IQR 1.5-4.2) years, 25 surviving patients experienced ICD shock and 44 experienced shock or anti-tachycardia pacing. ECV ranged from 20.2% to 39.4%. No patient with ECV<25% experienced an ICD shock. ECV associated with both endpoints, e.g., hazard ratio 2.17 (95%CI 1.17-4.00) for every 5% increase in ECV, p=0.014 in a stepwise model for ICD shock adjusting for ICD indication, age, smoking, atrial fibrillation, and myocardial infarction, whereas focal fibrosis by LGE and global longitudinal strain (GLS) did not.\n\nConclusionsDMF measured by ECV associates with ventricular arrhythmias requiring ICD therapy in a dose-response fashion, even adjusting for potential confounding variables, focal fibrosis by LGE, and GLS. ECV-based risk stratification and DMF representing a therapeutic target to prevent ventricular arrhythmia warrant further investigation.\n\nCondensed AbstractAnalogous to heart failure and mortality outcomes, diffuse myocardial fibrosis (DMF) quantified by extracellular volume (ECV) may represent a more vulnerable phenotype for life-threatening ventricular arrhythmia than focal myocardial fibrosis. In patients referred for cardiovascular magnetic resonance, we identified 215 subsequently receiving implantable cardioverter defibrillators (ICD). After a median of 2.9 (IQR 1.5-4.2) years, 25 patients experienced ICD shock and 44 experienced shock or anti-tachycardia pacing. ECV associated with ICD therapy in Cox regression models. Focal fibrosis variables or global longitudinal strain did not. ECV-based risk stratification and DMF representing a therapeutic target to prevent ventricular arrhythmia warrant further investigation.', 'URL': 'https://www.medrxiv.org/content/10.1101/2023.02.15.23285925v1', 'ArticleDate': '2023-02-16', 'DOI': '10.1101/2023.02.15.23285925'}, {'Title': 'Quantification of early nonpharmaceutical interventions 1 aimed at slowing transmission of Coronavirus Disease 2019 in the Navajo Nation and surrounding states (Arizona, Colorado, New Mexico, and Utah)', 'Abstract': 'During an early period of the Coronavirus Disease 2019 (COVID-19) pandemic, the Navajo Nation, much like New York City, experienced a relatively high rate of disease transmission. Yet, between January and October 2020, it experienced only a single period of growth in new COVID-19 cases, which ended when cases peaked in May 2020. The daily number of new cases slowly decayed in the summer of 2020 until late September 2020. In contrast, the surrounding states of Arizona, Colorado, New Mexico, and Utah all experienced at least two periods of growth in the same time frame, with second surges beginning in late May to early June. To investigate the causes of this difference, we used a compartmental model accounting for distinct periods of non-pharmaceutical interventions (NPIs) (e.g., behaviors that limit disease transmission) to analyze the epidemic in each of the five regions. We used Bayesian inference to estimate region-specific model parameters from regional surveillance data (daily reports of new COVID-19 cases) and to quantify uncertainty in parameter estimates and model predictions. Our results suggest that NPIs in the Navajo Nation were sustained over the period of interest, whereas in the surrounding states, NPIs were relaxed, which allowed for subsequent surges in cases. Our region-specific model parameterizations allow us to quantify the impacts of NPIs on disease incidence in the regions of interest.', 'URL': 'https://www.medrxiv.org/content/10.1101/2023.02.15.23285971v1', 'ArticleDate': '2023-02-16', 'DOI': '10.1101/2023.02.15.23285971'}, {'Title': 'On the Impact of Mass Screening for SARS-CoV-2 through Self-Testing in Greece', 'Abstract': 'The emergence of COVID-19 stressed country health systems up to the point of triggering compulsory public health interventions to flatten the epidemic curve. Most of the interventions during the first year of the pandemic were non-pharmaceutical and aimed to reduce the contact rate of the people, which reduced the transmission rate of all respiratory pathogens, but had a large social and financial burden. SARS-CoV-2 specific interventions included screening, that is testing of asymptomatic people, which was largely facilitated by the availability of self-testing lateral flow antigen detection devices. The importance of self-testing interventions in controlling COVID-19 epidemic is not well-documented. We study as a paradigm-model the self-testing COVID-19 mass screening program that was implemented in Greece, involving large, susceptible populations taking tests routinely and pre-emptively so as to enable early detection of infections. Using a novel compartmental model we quantify the effectiveness of the program in curbing the COVID-19 pandemic. Conservative estimates indicate that the program reduced the reproductive number by 4%, hospital admissions by 25% and deaths by 20%, which translated into approximately 20,000 averted hospitalizations and 2,000 averted deaths between April-December 2021. Self-testing mass screening programs are efficient interventions with minimal social and financial burden, thus they are invaluable tools to be considered in pandemic preparedness.', 'URL': 'https://www.medrxiv.org/content/10.1101/2023.02.15.23285963v1', 'ArticleDate': '2023-02-16', 'DOI': '10.1101/2023.02.15.23285963'}, {'Title': 'Quantifying patient- and hospital-level antimicrobial resistance dynamics in Staphylococcus aureus from routinely collected data', 'Abstract': 'Antimicrobial resistance (AMR) to all antibiotic classes has been found in the pathogen Staphylococcus aureus. The reported prevalence of these resistances vary, driven by within-host AMR evolution at the patient level, and between-host transmission at the hospital level. Without dense longitudinal sampling, pragmatic analysis of AMR dynamics at multiple levels using routine surveillance data is essential to inform control measures.\n\nWe explored S. aureus AMR diversity in 70,000 isolates from a UK paediatric hospital between 2000-2020, using electronic datasets containing multiple routinely collected isolates per patient with phenotypic antibiograms, hospitalisation information, and antibiotic consumption.\n\nAt the hospital-level, the proportion of isolates that were meticillin-resistant (MRSA) increased between 2014-2020 from 25 to 50%, before sharply decreasing to 30%, likely due to a change in inpatient demographics. Temporal trends in the proportion of isolates resistant to different antibiotics were often correlated in MRSA, but independent in meticillin-susceptible S. aureus. Ciprofloxacin resistance in MRSA decreased from 70% to 40% of tested isolates between 2007-2020, likely linked to a national policy to reduce fluoroquinolone usage in 2007. At the patient level, we identified frequent AMR diversity, with 4% of patients ever positive for S. aureus simultaneously carrying, at some point, multiple isolates with different resistances. We detected changes over time in AMR diversity in 3% of patients ever positive for S. aureus. These changes equally represented gain and loss of resistance.\n\nWithin this routinely collected dataset, we found that 65% of changes in resistance within a patients S. aureus population could not be explained by antibiotic exposure or between-patient transmission of bacteria, suggesting that within-host evolution via frequent gain and loss of AMR genes may be responsible for these changing AMR profiles. Our study highlights the value of exploring existing routine surveillance data to determine underlying mechanisms of AMR. These insights may substantially improve our understanding of the importance of antibiotic exposure variation, and the success of single S. aureus clones.', 'URL': 'https://www.medrxiv.org/content/10.1101/2023.02.15.23285946v1', 'ArticleDate': '2023-02-16', 'DOI': '10.1101/2023.02.15.23285946'}, {'Title': 'Underreporting of SARS-CoV-2 infections during the first wave of the 2020 COVID-19 epidemic in Finland - Bayesian inference based on a series of serological surveys', 'Abstract': 'In Finland, the first wave of the COVID-19 epidemic caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) took place from March to June 2020, with the majority of COVID-19 cases diagnosed in the extended capital region. The magnitude and trend in the incidence of COVID-19 is one way to monitor the course of the epidemic. The diagnosed COVID-19 cases are a subset of the infections and therefore the COVID-19 incidence underestimates the SARS-CoV-2 incidence. The likelihood that an individual with SARS-CoV-2 infection is diagnosed with COVID-19 depends on the clinical manifestation as well as the infection testing policy and capacity. These factors may fluctuate over time and the underreporting of infections changes accordingly. Quantifying the extent of underreporting allows the assessment of the true incidence of infection. To obtain information on the incidence of SARS-CoV-2 infection in Finland, a series of serological surveys was initiated in April 2020. We develop a Bayesian inference approach and apply it to data from the serological surveys, registered COVID-19 cases, and external data, to estimate the time-dependent underreporting of SARS-Cov-2 infections during the first wave of the COVID-19 epidemic in Finland. There were 1 to 5 (95% probability) SARS-CoV-2 infections for every COVID-19 case during the first wave of the COVID-19 epidemic in Finland. The underreporting was highest before April when there were 4 to 17 (95% probability) infections for every COVID-19 case. It is likely that between 0.5%-1.0% (50% probability) and no more than 1.5% (95% probability) of the population in the extended capital region were infected with SARS-CoV-2 by the beginning of July 2020.', 'URL': 'https://www.medrxiv.org/content/10.1101/2023.02.15.23285941v1', 'ArticleDate': '2023-02-16', 'DOI': '10.1101/2023.02.15.23285941'}, {'Title': 'Specialty-type and state-level variation in paroxetine use among older adult patients', 'Abstract': 'IntroductionParoxetine is an older "selective" serotonin reuptake inhibitor (SSRI) that is notable for its lack of selectivity, resulting in a cholinergic adverse-effect profile, especially among older adults (65+).\n\nMethodsParoxetine prescription rates and costs per state were ascertained from the Medicare Specialty Utilization and Payment Data. States annual prescription rate, corrected per thousand Part D enrollees, outside 95% confidence interval were considered significantly different from the average.\n\nResultsThere was a steady decrease in paroxetine prescriptions (-34.52%) and spending (-16.69%) from 2015-2020 but a consistent, five-fold state-level difference. From 2015-2020, Kentucky (194.9, 195.3, 182.7, 165.1, 143.3, 132.5) showed significantly higher prescriptions rates relative to the national average, and Hawaii (42.1, 37.9, 34.3, 31.7, 27.7, 26.6) showed significantly lower prescription rates. North Dakota was often a frequent elevated prescriber of paroxetine (2016: 170.7, 2018: 143.3), relative to the average. Neuropsychiatry and geriatric medicine frequently prescribed the largest amount of paroxetine prescriptions, relative to the number of providers in that specialty, from 2015-2020.\n\nDiscussionDespite the American Geriatrics Society prohibition against paroxetine use in the older adults and many effective treatment alternatives, paroxetine was still commonly used in this population, especially in Kentucky and North Dakota and by neuropsychiatry and geriatric medicine. These findings provide information on the specialty types and states where education and policy reform would likely have the greatest impact on improving adherence to the paroxetine prescription recommendations.', 'URL': 'https://www.medrxiv.org/content/10.1101/2023.02.15.23285973v1', 'ArticleDate': '2023-02-16', 'DOI': '10.1101/2023.02.15.23285973'}, {'Title': 'Prebiotic activity of lactulose optimizes gut metabolites and prevents systemic infection in liver disease patients', 'Abstract': 'Progression of chronic liver diseases is precipitated by hepatocyte loss, inflammation and fibrosis. This process results in the loss of critical hepatic functions, increasing morbidity and the risk of infection. Medical interventions that treat complications of hepatic failure, including antibiotic administration for systemic infections, impact gut microbiome composition and metabolite production. Using a multi-omics approach on 850 fecal samples from 263 patients with acute or chronic liver disease, we demonstrate that patients hospitalized for liver disease have reduced microbiome diversity and a paucity of bioactive metabolites. We find that patients treated with the orally administered but non-absorbable disaccharide lactulose have increased densities of intestinal Bifidobacteria and reduced incidence of systemic infections and mortality. Bifidobacteria metabolize lactulose, produce high concentrations of acetate and acidify the gut lumen, which, in combination, can reduce the growth of antibiotic-resistant pathobionts such as Vancomycin-resistant Enterococcus faecium. Our studies suggest that lactulose and Bifidobacteria serve as a synbiotic to reduce rates of infection in patients with severe liver disease.', 'URL': 'https://www.medrxiv.org/content/10.1101/2023.02.14.23285927v1', 'ArticleDate': '2023-02-16', 'DOI': '10.1101/2023.02.14.23285927'}, {'Title': 'CCR5 deficiency: decreased neuronal resilience to oxidative stress and increased risk of vascular dementia.', 'Abstract': 'IntroductionAs the chemokine receptor5 (CCR5) may play a role in ischemia, we studied the links between CCR5 deficiency, the sensitivity of neurons to oxidative stress, and the development of dementia.\n\nMethodsLogistic regression models with CCR5 and ApoE polymorphisms were applied to 205 cognitively normal and 189 dementia patients included in Geneva. The impact of oxidative stress on Ccr5 expression and cell death was assessed in mice neurons.\n\nResultsCCR5-{Delta}32 allele synergized with ApoE{varepsilon}4 as risk factor for dementia and specifically for dementia with a vascular component. We confirmed these results in an independent cohort from Italy (157 cognitively normal and 620 dementia). Carriers of the ApoE{varepsilon}4/CCR5-{Delta}32 genotype aged [&ge;]80 years have an eleven-fold greater risk of vascular and mixed dementia. Oxidative stress induced cell death in Ccr5-/- mice neurons.\n\nDiscussionWe propose the vulnerability of CCR5-deficient neurons in response to oxidative stress as possible mechanisms contributing to dementia.', 'URL': 'https://www.medrxiv.org/content/10.1101/2023.02.15.23285967v1', 'ArticleDate': '2023-02-16', 'DOI': '10.1101/2023.02.15.23285967'}, {'Title': 'Wastewater genomic surveillance tracks the spread of the SARS-CoV-2 Omicron variant across England', 'Abstract': 'BackgroundMany countries have moved into a new stage of managing the SARS-CoV-2 pandemic with minimal restrictions and reduced testing in the population, leading to reduced genomic surveillance of virus variants in individuals. Wastewater-based epidemiology (WBE) can provide an alternative means of tracking virus variants in the population but is lacking verifications of its comparability to individual testing data.\n\nMethodsWe analysed more than 19,000 samples from 524 wastewater sites across England at least twice a week between November 2021 and February 2022, capturing sewage from >70% of the English population. We used amplicon-based sequencing and the phylogeny based de-mixing tool Freyja to estimate SARS-CoV-2 variant frequencies and compared these to the variant dynamics observed in individual testing data from clinical and community settings.\n\nFindingsWe show that wastewater data can reconstruct the spread of the Omicron variant across England since November 2021 in close detail and aligns closely with epidemiological estimates from individual testing data. We also show the temporal and spatial spread of Omicron within London. Our wastewater data further reliably track the transition between Omicron subvariants BA1 and BA2 in February 2022 at regional and national levels.\n\nInterpretationOur demonstration that WBE can track the fast-paced dynamics of SARS-CoV-2 variant frequencies at a national scale and closely match individual testing data in time shows that WBE can reliably fill the monitoring gap left by reduced individual testing in a more affordable way.\n\nFundingDepartment of Health and Social Care, UK, Natural Environmental Research Council, UK, COG-UK\n\nResearch in contextO_ST_ABSEvidence before this studyC_ST_ABSGenomic monitoring of wastewater for SARS-CoV-2 variants has been introduced in several countries and shown to effectively detect the spread of known variants in multiple studies. However, verification of its alignment with individual testing data at a national scale has so far been reported only for Austria, where sampling covered around 5.4million people. Further and larger scale verifications of the reliability of wastewater-based epidemiology (WBE) are needed to increase confidence in its use for public health monitoring.\n\nAdded value of this studyWe provide evidence that WBE was able to closely track the spread of the emerging SARS-CoV-2 variant Omicron, as well as its sub lineage dynamics, at a regional and national scale across England. Our sampling covered >70% of the English population, equivalent to 39.4 million people. We thereby demonstrate the scalability of our approach to national levels. We also show how WBE is able to track dynamics in different regions of the UK and at a finer scale within London. Its close alignment, in estimated epidemiological timings, with results from intensive individual testing in the same timeframe provides evidence that wastewater-based monitoring can be a reliable alternative when large scale data from individual testing is not available.\n\nImplications of all the available evidenceAltogether, evidence is accumulating that WBE is a reliable approach for monitoring SARS-CoV-2 variant dynamics and informing public health measures across spatial scales.', 'URL': 'https://www.medrxiv.org/content/10.1101/2023.02.15.23285942v1', 'ArticleDate': '2023-02-16', 'DOI': '10.1101/2023.02.15.23285942'}], 'pubmed': [{'Title': 'Multi-scale integrative analyses identify THBS2<sup>+</sup> cancer-associated fibroblasts as a key orchestrator promoting aggressiveness in early-stage lung adenocarcinoma.', 'Abstract': '<b>Rationale:</b> Subsets of patients with early-stage lung adenocarcinoma (LUAD) have a poor post-surgical course after curative surgery. However, biomarkers stratifying this high-risk subset and molecular underpinnings underlying the aggressive phenotype remain unclear. <b>Methods:</b> We integrated bulk and single-cell transcriptomics, proteomics, secretome and spatial profiling of clinical early-stage LUAD samples to identify molecular underpinnings that promote the aggressive phenotype. <b>Results:</b> We identified and validated THBS2, at multi-omic levels, as a tumor size-independent biomarker that robustly predicted post-surgical survival in multiple independent clinical cohorts of early-stage LUAD. Furthermore, scRNA-seq data revealed that THBS2 is exclusively derived from a specific cancer-associated fibroblast (CAF) subset that is distinct from CAFs defined by classical markers. Interestingly, our data demonstrated that THBS2 was preferentially secreted via exosomes in early-stage LUAD tumors with high aggressiveness, and its levels in the peripheral plasma associated with short recurrence-free survival. Further characterization showed that THBS2-high early-stage LUAD was characterized by suppressed antitumor immunity. Specifically, beyond tumor cells, THBS2+ CAFs mainly interact with B and CD8+ T lymphocytes as well as macrophages within tumor microenvironment of early-stage LUAD, and THBS2-high LUAD was associated with decreased immune cell infiltrates but increased immune exhaustion marker. Clinically, high THBS2 expression predicted poor response to immunotherapies and short post-treatment survival of patients. Finally, THBS2 recombinant protein suppressed <i>ex vivo</i> T cells proliferation and promoted <i>in vivo</i> LUAD tumor growth and distant micro-metastasis. <b>Conclusions:</b> Our multi-level analyses uncovered tumor-specific THBS2+ CAFs as a key orchestrator promoting aggressiveness in early-stage LUAD.', 'PMID': '35547750', 'DOI': '10.7150/thno.69590', 'Journal_Title': 'Theranostics', 'ISO_Abbreviation': 'Theranostics', 'Journal_Score': '27.8571428571429', 'ISSN': '1838-7640', 'ArticleDate': '2022-03-28', 'URL': 'https://pubmed.ncbi.nlm.nih.gov/35547750/'}, {'Title': 'Serum protein risk stratification score for diagnostic evaluation of metabolic dysfunction-associated steatohepatitis.', 'Abstract': 'Reliable, noninvasive tools to diagnose at-risk metabolic dysfunction-associated steatohepatitis (MASH) are urgently needed to improve management. We developed a risk stratification score incorporating proteomics-derived serum markers with clinical variables to identify high-risk patients with MASH (NAFLD activity score >4 and fibrosis score >2).', 'PMID': '39621304', 'DOI': '10.1097/HC9.0000000000000586', 'Journal_Title': 'Hepatology communications', 'ISO_Abbreviation': 'Hepatol Commun', 'Journal_Score': '5.44444444444444', 'ISSN': '2471-254X', 'ArticleDate': '2024-11-29', 'URL': 'https://pubmed.ncbi.nlm.nih.gov/39621304/'}, {'Title': 'TGF-β Score based on <i>Silico</i> Analysis can Robustly Predict Prognosis and Immunological Characteristics in Lower-grade Glioma: The Evidence from Multicenter Studies.', 'Abstract': 'Nowadays, mounting evidence shows that variations in TGF-β signaling pathway-related components influence tumor development. Current research has patents describing the use of anti-TGF-β antibodies and checkpoint inhibitors for the treatment of proliferative diseases. Importantly, TGF-β signaling pathway is significant for lower-grade glioma (LGG) to evade host immunity. Loss of particular tumor antigens and shutdown of professional antigenpresenting cell activity may render the anti-tumor response ineffective in LGG patients. However, the prognostic significance of TGF-β related genes in LGG is still unknown.', 'PMID': '37718518', 'DOI': '10.2174/1574892819666230915143632', 'Journal_Title': 'Recent patents on anti-cancer drug discovery', 'ISO_Abbreviation': 'Recent Pat Anticancer Drug Discov', 'Journal_Score': '4.45569620253165', 'ISSN': '2212-3970', 'ArticleDate': '', 'URL': 'https://pubmed.ncbi.nlm.nih.gov/37718518/'}, {'Title': 'Proteomic analysis of exosomes isolated from human malignant pleural effusions.', 'Abstract': 'Exosomes are membrane vesicles from endosomal origin secreted by various cells such as hematopoietic, epithelial, and tumor cells. Exosomes secreted by tumor cells contain specific antigens potentially useful for immunotherapeutic purposes. Our aim was to determine if exosomes are present in human cancerous pleural effusions and to identify their proteomic content. Exosomes were purified by sucrose gradient ultracentrifugation, and electron microscopy was used to check both concentration and purity of exosomes. Proteins were separated by one-dimensional sodium dodecyl sulfate-polyacrylamide gel electrophoresis, and protein bands were identified by matrix-assisted laser desorption ionization time-of-flight mass spectrometry and Western blotting. Exosomes were present in pleural fluid obtained from patients suffering from mesothelioma (n = 4), lung cancer (n = 2), breast cancer (n = 2), and ovarian cancer (n = 1). As previously reported by others, antigen-presenting molecules, cytoskeletal proteins, and signal transduction-involved proteins were present. Proteins not previously reported were identified (SNX25, BTG1, PEDF, thrombospondin 2). Different types of immunoglobulins and complement factors were abundantly present in the sucrose fractions containing exosomes. Exosome-directed specificity of these immunoglobulins was not observed. In conclusion, sucrose gradient ultracentrifugation allows isolation of exosomes from malignant pleural effusions. However, pleural fluid proteins and especially immunoglobulins are coisolated and may hamper the use of exosomes isolated from malignant effusion for immunotherapy programs.', 'PMID': '14975938', 'DOI': None, 'Journal_Title': 'American journal of respiratory cell and molecular biology', 'ISO_Abbreviation': 'Am J Respir Cell Mol Biol', 'Journal_Score': 'None', 'ISSN': '1044-1549', 'ArticleDate': '2004-02-19', 'URL': 'https://pubmed.ncbi.nlm.nih.gov/14975938/'}]}
+2025-08-04 17:41:03,076 - __main__ - INFO - Reporter Node is running.
